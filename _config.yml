@@ -39,8 +39,20 @@ navigation_links:
   - title: About
     url: /about
 
-  - title: Search
+  - title: 🔍
     url: /search
+
+# Footer navigation menu
+footer_navigation_links:
+  - title: Blog
+    url: /
+
+  - title: Programming
+    url: /programming
+
+  - title: About
+    url: /about
+
 
 # Footer icons
 footer_links:
