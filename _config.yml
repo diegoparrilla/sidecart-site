@@ -46,7 +46,7 @@ navigation_links:
 footer_links:
   - title: Feed
     url: feed.xml
-#    icon: fa fa-rss-square
+    icon: fa fa-rss-square
 
   - title: Twitter
     url: https://twitter.com/jekyllrb
