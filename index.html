@@ -2,6 +2,69 @@
 layout: default
 ---
 
+<div>
+<div class="landing-page">
+
+    <!-- Header Section with Logo -->
+    <section id="header">
+        <img src="{{ site.baseurl }}/path-to-your-logo.png" alt="Sidecart Logo" class="project-logo">
+        <h1>Welcome to Sidecart</h1>
+        <p>An Atari ST cartridge emulator on Raspberry Pi Pico steroids</p>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Sidecart</h2>
+        <p>[Placeholder text: Brief description of the Sidecart project. What it does, why it was created, and its main goals.]</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>[Placeholder: Feature 1 description]</li>
+            <li>[Placeholder: Feature 2 description]</li>
+            <li>[Placeholder: Feature 3 description]</li>
+            <!-- ... add more features as necessary -->
+        </ul>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>[Placeholder text: Detailed explanation of how the emulator works, perhaps with step-by-step instructions or a workflow.]</p>
+    </section>
+
+    <!-- Gallery/Video Demo Section -->
+    <section id="demo">
+        <h2>Demo</h2>
+        <p>[Placeholder: Here you can provide images, videos or GIFs showcasing the Sidecart in action.]</p>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <dl>
+            <dt>[Placeholder: Question 1]</dt>
+            <dd>[Placeholder: Answer to Question 1]</dd>
+
+            <dt>[Placeholder: Question 2]</dt>
+            <dd>[Placeholder: Answer to Question 2]</dd>
+            
+            <!-- ... add more Q&A as necessary -->
+        </dl>
+    </section>
+
+    <!-- Contact/Support Section -->
+    <section id="contact">
+        <h2>Contact & Support</h2>
+        <p>[Placeholder text: Information about how to get support, how to contribute, or how to get in touch with the makers.]</p>
+    </section>
+</div>
+
+</div>
+
+
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
@@ -25,4 +88,5 @@ layout: default
   {% endfor %}
 
   {% include pagination.html %}
+</div>
 </div>
