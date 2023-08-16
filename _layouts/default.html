@@ -59,6 +59,13 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          
+          {%- if site.footer_navigation_links -%}
+          <nav class="nav-menu">
+            {% include footer_navigation.html %}
+          </nav>
+          {%- endif -%}
+          
           {%- if site.footer_links -%}
           <div class="social-icons">
             {%- for footer_link in site.footer_links -%}
