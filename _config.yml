@@ -30,29 +30,34 @@ baseurl: ""
 
 # Navigation menu
 navigation_links:
+  - title: Quickstart
+    url: /quickstart
+
   - title: Blog
     url: /
 
   - title: Programming
     url: /programming
 
-  - title: About
-    url: /about
+  - title: Buy
+    url: /buy
 
   - title: 🔍
     url: /search
 
 # Footer navigation menu
 footer_navigation_links:
-  - title: Blog
-    url: /
+  - title: Privacy
+    url: /privacy
 
-  - title: Programming
-    url: /programming
+  - title: Licenses
+    url: /licenses
 
   - title: About
     url: /about
 
+  - title: Downloads
+    url: /downloads
 
 # Footer icons
 footer_links:
