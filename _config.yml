@@ -9,7 +9,7 @@ lang: "en"
 title: Sidecart
 
 # Short bio or description (displayed in the header)
-description: An Atari ST cartridge emulator on Raspberry Pi Pico steroids
+description: Atari ST/STE/Mega cartridge emulator on Raspberry Pi Pico steroids
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/image/avatar.png
@@ -66,11 +66,11 @@ footer_links:
     icon: fa fa-rss-square
 
   - title: Twitter
-    url: https://twitter.com/jekyllrb
+    url: https://twitter.com/sidecartxyz
     icon: fa fa-twitter-square
 
   - title: GitHub
-    url: https://github.com/forever-jekyll
+    url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico
     icon: fa fa-github-square
 
 # Enter your copyright text if you wish to override the default one.
