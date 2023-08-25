@@ -115,6 +115,18 @@ strong, b {
   font-weight: bold;
 }
 
+dt {
+  font-weight: bold;
+}
+
+dl, dd {
+  font-size: 0.9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -401,21 +413,6 @@ a[href^="#fnref:"] {
 [hidden] {
   display: none !important;
 }
-
-p,
-dt {
-  font-weight: bold;
-}
-
-dl,
-dd {
-  font-size: 0.9rem;
-}
-
-dd {
-  margin-bottom: 1em;
-}
-
 
 /*********************/
 /* LAYOUT / SECTIONS */
