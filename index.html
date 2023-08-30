@@ -7,7 +7,7 @@ layout: default
 
     <!-- Header Section with Logo -->
     <section id="header">
-    <div class="center-image-container">
+    <div class="center-image-container-project-logo">
         <img src="{{ site.baseurl }}/assets/image/SIDECART_LOGO_BW_512_x512.png" alt="Sidecart Logo" class="project-logo" id="rotating-image">
     </div>
     <script>
@@ -19,16 +19,41 @@ layout: default
         ];
     
         let currentImageIndex = 0;
-    
+        const imageContainer = document.querySelector('.center-image-container');
+        
         function rotateImage() {
+            // Create a new image element
+            const newImage = document.createElement('img');
+            newImage.src = images[currentImageIndex];
+            newImage.alt = "Rotating Image";
+            newImage.className = "project-logo";
+        
+            // Append the new image to the container
+            imageContainer.appendChild(newImage);
+        
+            // Force a reflow to make the transition work
+            void newImage.offsetWidth;
+        
+            // Add the visible class to make the image fade in
+            newImage.classList.add('visible');
+        
+            // Remove the previous image after the transition
+            setTimeout(() => {
+                if (imageContainer.children.length > 1) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
+            }, 1000);
+        
             currentImageIndex++;
             if (currentImageIndex >= images.length) {
                 currentImageIndex = 0;
             }
-            document.getElementById('rotating-image').src = images[currentImageIndex];
         }
-    
-        // Rotate the image every X seconds. For example, 5 seconds = 5000 milliseconds
+        
+        // Initiate the first image to be visible without waiting for the interval
+        imageContainer.querySelector('.project-logo').classList.add('visible');
+        
+        // Rotate the image every X seconds, for example, every 5 seconds = 5000 milliseconds
         setInterval(rotateImage, 5000);
     </script>
     </section>
