@@ -628,7 +628,10 @@ footer {
 }
 
 .project-logo {
-    
+    max-height: 512px;
+    width: auto;  /* This will maintain the image aspect ratio */
+    display: block;  /* Centers the image horizontally if your container uses 'text-align: center' */
+    margin: 0 auto;  /* Centers the image horizontally */    
 }
 
 
