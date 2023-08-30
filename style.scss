@@ -629,7 +629,8 @@ footer {
 
 .center-image-container-project-logo {
     position: relative;
-    display: flex;
+    height: 512px; /* Define the height to ensure the container doesn't collapse */
+    overflow: hidden; /* Ensure any oversized images don't spill out of the container */
     justify-content: center;
     align-items: center;
 }
@@ -639,10 +640,6 @@ footer {
     width: auto;
     display: block;
     margin: 0 auto;
-    position: absolute;  /* Position the images absolutely within the center-image-container */
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     opacity: 0;
     transition: opacity 1s;  /* Add transition for opacity */
 }
