@@ -627,11 +627,25 @@ footer {
     align-items: center;
 }
 
+.center-image-container-project-logo {
+    position: relative;
+}
+
 .project-logo {
     max-height: 512px;
-    width: auto;  /* This will maintain the image aspect ratio */
-    display: block;  /* Centers the image horizontally if your container uses 'text-align: center' */
-    margin: 0 auto;  /* Centers the image horizontally */    
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    position: absolute;  /* Position the images absolutely within the center-image-container */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 1s;  /* Add transition for opacity */
+}
+
+.project-logo.visible {
+    opacity: 1;  /* This class will make the image visible */
 }
 
 
