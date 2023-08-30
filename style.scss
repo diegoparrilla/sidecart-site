@@ -629,6 +629,9 @@ footer {
 
 .center-image-container-project-logo {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-logo {
