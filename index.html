@@ -10,18 +10,20 @@ layout: default
     <div class="center-image-container-project-logo"></div>
     <script>
         const lightImages = [
-            "{{ site.baseurl }}/assets/image/SIDECART_LOGO_BW_512_x512.png",
+            "{{ site.baseurl }}/assets/image/SIDECART_LOGO_BW_LIGHTMODE_512x512.png",
             "{{ site.baseurl }}/assets/image/board-hand.png",
             "{{ site.baseurl }}/assets/image/board-picow.png",
             "{{ site.baseurl }}/assets/image/board-picow-far.png",
-            "{{ site.baseurl }}/assets/image/board-single.png"
+            "{{ site.baseurl }}/assets/image/board-single.png",
+            "{{ site.baseurl }}/assets/image/SIDECART_TEXT_BW_LIGHTMODE_512x512.png"
         ];
         const darkImages = [
-            "{{ site.baseurl }}/assets/image/SIDECART_TEXT_BW_512x112.png",
+            "{{ site.baseurl }}/assets/image/SIDECART_LOGO_BW_DARKMODE_512x512.png",
             "{{ site.baseurl }}/assets/image/board-hand.png",
             "{{ site.baseurl }}/assets/image/board-picow.png",
             "{{ site.baseurl }}/assets/image/board-picow-far.png",
-            "{{ site.baseurl }}/assets/image/board-single.png"
+            "{{ site.baseurl }}/assets/image/board-single.png",
+            "{{ site.baseurl }}/assets/image/SIDECART_TEXT_BW_DARKMODE_512x512.png"
         ];
 
         let images = document.body.classList.contains('darkmode--activated') ? darkImages : lightImages;
