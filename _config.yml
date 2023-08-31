@@ -6,7 +6,7 @@
 lang: "en"
 
 # Name of your site (displayed in the header)
-title: Sidecart
+title: SidecarT
 
 # Short bio or description (displayed in the header)
 description: Atari ST/STE/Mega cartridge emulator on Raspberry Pi Pico steroids
@@ -61,12 +61,8 @@ footer_navigation_links:
 
 # Footer icons
 footer_links:
-  - title: Feed
-    url: feed.xml
-    icon: fa fa-rss-square
-
   - title: Twitter
-    url: https://twitter.com/sidecartxyz
+    url: https://twitter.com/sidecartridge
     icon: fa fa-twitter-square
 
   - title: GitHub
