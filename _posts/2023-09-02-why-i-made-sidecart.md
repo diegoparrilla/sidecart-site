@@ -50,7 +50,8 @@ My idea was to utilize an underused interface available in the Atari ST: the car
 - Signal selectors for the size of the data to read LDS and (UDS can act as the A0 data line).
 - 5V and GND inputs.
 
-<<CARTRIDGE IMAGE>>
+[![ST cartridge pinout](/assets/blog/images/stcartport.png)](/assets/blog/images/stcartport.png){:.glightbox}
+
 
 The most glaring constraint is that it's a read-only device. There's no direct way to write to the cartridge since the data bus is read-only, a limitation set by the Atari ST developers. However, since the late '80s, some commercial cartridges had discovered how to bypass this limitation using a clever technique with the available banks. The trick goes like this: if one of the banks (ROM3 was chosen because it didn't participate in the machine's boot process) listened to the addresses put on the data bus, it became a rudimentary way to indicate that data was meant to be put into the cartridge. The original article discussing this can be found [here](https://www.atarimagazines.com/startv1n3/CartridgeSlot.html).
 
@@ -72,7 +73,7 @@ If you're familiar with embedded development, it's not unusual to encounter such
 
 The first thing I did was build simple PCBs that would allow me to connect to the Atari ST cartridge interface effortlessly. The information available regarding the operation of the cartridge signals is rather limited, making research necessary. Additionally, it's essential to build "level shifters" to transition from 5V to 3V and vice versa.
 
-<< CARTRIDGE BOARD >>
+[![PCB Cartridge connector](/assets/blog/images/cartridge-connector.png)](/assets/blog/images/cartridge-connector.png){:.glightbox}
 
 Initially, I was hesitant about using a microcontroller for this project. That's why I leaned towards using a Raspberry Pi Zero 2. That was a mistake. Not because it's a poor product, quite the opposite. It's because using an operating system capable of real-time performance, or even developing at the bare-metal level, overly complicated the project. Despite this, I managed to create a very early version of the project that could read the cartridge port's address bus. However, the tweaks I had to make at the OS level to consistently read the signals were cumbersome and intricate. Any GNU/Linux derivative isn't naturally suited for real-time performance. Even one with patches to make the kernel "fully preemptable" wouldn't achieve the response times necessary to emulate the ROMs of an Atari ST cartridge (remember, the system clock cycle is 2Mhz).
 
@@ -80,11 +81,12 @@ My next line of exploration was searching for microcontrollers that could indeed
 
 The RP2040 includes 2 PIO blocks. Each PIO block is akin to a small processor running code independently from the main CPU (Cortex-M0+). Thus, the PIOs manage I/O in a deterministic manner, ensuring precise timing regardless of the CPU's load. Exactly what I was looking for to emulate the ROMs.
 
-<< RASPBERRY PI PICO W >>
+[![Raspberry Pi Pico WH](/assets/blog/images/raspberry-pi-pico-rp2040-wh.png)](/assets/blog/images/raspberry-pi-pico-rp2040-wh.png){:.glightbox}
 
 To connect a Raspberry Pi Pico W board through the cartridge port, it's first necessary to implement two voltage translation levels. These "level shifters" ensure that both the RP2040, operating at 3.3 volts, and the Atari ST, operating at 5 volts, can connect without damaging either's circuits.
 
 << LEVEL SHIFTERS >>
+[![Raspberry Pi Pico WH](/assets/blog/images/level-shifters.png)](/assets/blog/images/level-shifters.png){:.glightbox}
 
 ## Eureka!
 
