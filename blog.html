@@ -2,33 +2,31 @@
 layout: default
 ---
 
-<div>
-    <div class="landing-page">
-        <div class="posts">
-            <h1>Recent blog posts</h1>
-            {% for post in paginator.posts %}
-            <article class="post">
+<div class="landing-page">
+    <div class="posts">
+        <h1>Recent blog posts</h1>
+        {% for post in paginator.posts %}
+        <article class="post">
 
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-                <div class="entry">
-                    {% if post.content contains '<!--more-->' %}
+            <div class="entry">
+                {% if post.content contains '<!--more-->' %}
 
-                    {{ post.excerpt }}
+                {{ post.excerpt }}
 
-                    {% else %}
+                {% else %}
 
-                    {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+                {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
 
-                    {% endif %}
-                </div>
+                {% endif %}
+            </div>
 
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include
-                    read-time.html content=post.content %}</a>
-            </article>
-            {% endfor %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include
+                read-time.html content=post.content %}</a>
+        </article>
+        {% endfor %}
 
-            {% include pagination.html %}
-        </div>
+        {% include pagination.html %}
     </div>
 </div>
