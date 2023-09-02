@@ -85,7 +85,6 @@ The RP2040 includes 2 PIO blocks. Each PIO block is akin to a small processor ru
 
 To connect a Raspberry Pi Pico W board through the cartridge port, it's first necessary to implement two voltage translation levels. These "level shifters" ensure that both the RP2040, operating at 3.3 volts, and the Atari ST, operating at 5 volts, can connect without damaging either's circuits.
 
-<< LEVEL SHIFTERS >>
 [![Raspberry Pi Pico WH](/assets/blog/images/level-shifters.png)](/assets/blog/images/level-shifters.png){:.glightbox}
 
 ## Eureka!
@@ -99,3 +98,5 @@ As one might guess, this entire setup was a real jumble of wires. Once I ensured
     allowtransparency
   ></iframe>
 </div>
+
+In the coming posts I will explain in detail the technical aspects of the project, but for now, I'll leave you with a video of the first version of the SidecarT in action. Stay tuned!
