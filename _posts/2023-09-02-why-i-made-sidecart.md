@@ -13,13 +13,25 @@ I had practically erased memories of that teenage era, during which I not only c
 
 But a year ago, a member of the old Spanish "crews" managed to recover some of the work I did back then, and my mind was blown. Suddenly, as if someone had opened a door in my mind that had been shut for years, all the fond memories from that era rushed back. I was irresistibly drawn to reconnect with the machine that had once obsessed me during my teenage years.
 
-<< OLD CRACKTRO>>
+<div class="plyr__video-embed" id="player">
+  <iframe
+    src="https://www.youtube.com/embed/A5K8tscK6Dw?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    allowfullscreen
+    allowtransparency
+  ></iframe>
+</div>
 
 That marked the beginning of my deep dive into what I term "hardcore retrocomputing": developing software for those now obsolete machines, not for any professional gain, but purely for the joy of doing and knowing that you're capable of accomplishing it. I got my hands on all the emulators, the MiSTer, cross compilers, and of course, an Atari STE (E for Enhanced), my teenage wet dream.
 
 My first "hardcore retrocomputing" project was a new cracktro where I aimed to fully exploit the capabilities of the Atari STE compared to the Atari ST: Blitter, hardware scroll, and so on. I posted updates on X (Formerly known as Twitter) about my progress, and this introduced me to more people from the Atari ST retro world. I developed it using modern tools which I packed into a Docker virtual image, which, by the way, I used for SidecarT as well.
 
-<< NEW CRACKTRO>>
+<div class="plyr__video-embed" id="player">
+  <iframe
+    src="https://www.youtube.com/embed/a-5O7mlukhQ?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    allowfullscreen
+    allowtransparency
+  ></iframe>
+</div>
 
 ## A challenging hardcore retro project
 
@@ -78,4 +90,10 @@ To connect a Raspberry Pi Pico W board through the cartridge port, it's first ne
 
 As one might guess, this entire setup was a real jumble of wires. Once I ensured everything was properly connected, developing the very first prototype version was relatively straightforward. Here, I've attached a video capturing that "Eureka" moment when I was able to load a ROM from the microcontroller.
 
-<< EUREKA VIDEO >>
+<div class="plyr__video-embed" id="player">
+  <iframe
+    src="https://www.youtube.com/embed/SC36MAYPz-A?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    allowfullscreen
+    allowtransparency
+  ></iframe>
+</div>
