@@ -26,7 +26,7 @@ To install and update the SidecarT firmware on the Raspberry Pi Pico W, you'll n
 
 For this version of the project, having a microSD card is essential. Ensure you procure one with adequate storage for your images.
 
-[![USB A to micro USB](/assets/image/quickstart/microsusb.jpeg)](/assets/image/quickstart/microsusb.jpeg){:.glightbox}
+[![USB A to micro USB](/assets/image/quickstart/microusb.jpeg)](/assets/image/quickstart/microusb.jpeg){:.glightbox}
 
 ## Step 2. Install the latest firmware version on the SidecarT
 
