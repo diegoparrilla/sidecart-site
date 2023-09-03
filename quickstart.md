@@ -15,16 +15,18 @@ PLACEHOLDER FOR A PICTURE OF ATARI ST FAMILY
 To get your hands on a SidecarT, you can either [purchase it from our store](/buy) or [build one yourself](/build).
 
 PLACEHOLDER FOR A PICTURE OF THE SIDECART WITHOUT THE PICO
+[![SidecarT without Raspberry Pi Pico](/image/quickstart/board-single.png)](/image/quickstart/board-single.png){:.glightbox}
+
 
 The SidecarT operates using a Raspberry Pi Pico W. You have the option to purchase the SidecarT with an included and pre-configured Raspberry Pi Pico W, or you can buy one separately. If you choose to purchase one on your own, you should look for a Raspberry Pi Pico WH, which already comes with the necessary 40-pin connectors to attach to the SidecarT's motherboard. Alternatively, you can buy a Raspberry Pi Pico W and procure two 20-pin connectors, then solder them to the board yourself. Here's a [link to a manufacturer](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C50981_C50981.html) for reference.
 
-PLACEHOLDER FOR A PICTURE OF THE RASPBERRY PI PICO W
+[![Raspberry Pi Pico WH](/image/quickstart/raspberry-pi-pico-rp2040-wh.png)](/image/quickstart/raspberry-pi-pico-rp2040-wh.png){:.glightbox}
 
 To install and update the SidecarT firmware on the Raspberry Pi Pico W, you'll need a USB A to micro USB *data* cable. When purchasing from our store, a cable suited for this task is included. It's important to note the emphasis on a "data" cable - a simple charging cable won't suffice.
 
 For this version of the project, having a microSD card is essential. Ensure you procure one with adequate storage for your images.
 
-PLACEHOLDER FOR A PICTURE OF THE DATA CABLE
+[![Raspberry Pi Pico WH](/image/quickstart/microsusb.jpeg)](/image/quickstart/microsusb.jpeg){:.glightbox}
 
 ## Step 2. Install the latest firmware version on the SidecarT
 
