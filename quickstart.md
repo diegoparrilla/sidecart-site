@@ -37,7 +37,7 @@ For this version of the project, having a microSD card is essential. Ensure you 
 
 ## Step 2. Install the latest firmware version on the SidecarT
 
-To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named RP2040 should appear on your PC, Mac, or Linux. Open it.
+To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named `RPI-RP2` should appear on your PC, Mac, or Linux. Open it.
 
 PLACEHOLDER FOR A GIF SHOWING HOW TO PRESS THE BOOTSEL BUTTON
 
@@ -112,7 +112,9 @@ Make sure to handle the SidecarT carefully to avoid any damage. Once connected, 
 
 ## Step 6. Switch on the computer
 
-When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, it only acts as a ROM emulator.
+When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, it only acts as a ROM emulator. 
+
+> Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'F' in Morse code. 
 
 PLACEHOLDER WITH A GIF SHOWING THE BOOT SEQUENCE
 
@@ -129,6 +131,8 @@ PLACEHOLDER FOR ROMLOAD.TOS IN THE CURRENT VERSION
 Press '1' and hit Enter to choose the *Emulate ROM image from microSD card* option. The system will then display a list of ROM images you've copied to the microSD card in step 4.
 
 Enter the number corresponding to the ROM image you wish to emulate and press Enter. The SidecarT will load the selected image, preparing it for execution on the computer's next startup or reset.
+
+> Note: You know you're in ROM EMULATION mode when booting because the Raspberry Pi Pico W's LED will show a short blink; a 'E' in Morse code. 
 
 ## Step 8. Boot the ROM
 
