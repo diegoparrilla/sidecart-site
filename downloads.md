@@ -29,7 +29,7 @@ The test software runs on the Atari ST, checking the SidecarT's communication ca
 4. Now start the Atari ST and the SidecarT in normal mode and launch the `TESTSCRT.TOS` program.
 
 ### Latest Versions
-- **Test Software:** [TESTSCRT.TOS ({{ site.TEST_FIRMARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTSCRT.TOS)
-- **Test ROM:** [TESTROM.BIN ({{ site.TEST_FIRMARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTROM.BIN)
+- **Test Software:** [TESTSCRT.TOS ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTSCRT.TOS)
+- **Test ROM:** [TESTROM.BIN ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTROM.BIN)
 
 [🔗 View All Test Software Versions on GitHub](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases)
