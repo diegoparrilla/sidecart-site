@@ -8,7 +8,9 @@ permalink: /quickstart
 
 While it may seem straightforward, the initial step involves obtaining a functional Atari ST, STE, or Mega computer. It's okay if certain components aren't in perfect shape—for instance, the floppy drive or the hard disk might not be operational—as long as the machine can power on. If you haven't secured one yet, consider checking second-hand sales websites or specialized forums such as [Atari Forum](https://www.atari-forum.com/) and [Atari Age](https://www.atariage.com/).
 
+{:refdef: style="text-align: center;"}
 [![Atari 520ST](/assets/image/quickstart/atari520st.jpeg)](/assets/mage/quickstart/atari520st.jpeg){:.glightbox}
+{: refdef}
 
 ## Step 1. Acquire a SidecarT board and a microSD card
 
