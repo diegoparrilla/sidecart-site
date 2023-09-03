@@ -56,6 +56,9 @@ footer_navigation_links:
   - title: Downloads
     url: /downloads
 
+  - title: Contact
+    url: /contact
+
 # Footer icons
 footer_links:
   - title: Twitter
