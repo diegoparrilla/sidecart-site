@@ -6,12 +6,9 @@ permalink: /downloads
 
 Welcome to the official download center for SidecarT firmware and software. Find the latest versions and necessary instructions below.
 
-
-{{ site.FIRMWARE_VERSION }}
-
 ## SidecarT Firmware
 
-The SidecarT firmware runs on the Raspberry Pi Pico, facilitating communication with the Atari ST and managing the SD card.
+The SidecarT firmware runs on the Raspberry Pi Pico, facilitating communication with the Atari ST.
 
 ### Raspberry Pi Pico W 
 - **Latest Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)

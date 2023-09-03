@@ -123,5 +123,6 @@ exclude:
 google_analytics: G-6VT9RXTJ2N
 
 # Versions of SidecarT
-FIRMARE_VERSION: v0.0.4
-TEST_FIRMARE_VERSION: v0.0.3
+FIRMWARE_VERSION: v0.0.4
+TEST_FIRMWARE_VERSION: v0.0.3
+
