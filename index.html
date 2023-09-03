@@ -226,11 +226,11 @@ layout: default
 
 
 <div class="posts">
-    <h1>Recent blog posts</h1>
+    <h2>Recent blog posts</h2>
     {% for post in paginator.posts %}
     <article class="post">
 
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
         <div class="entry">
             {% if post.content contains '<!--more-->' %}
