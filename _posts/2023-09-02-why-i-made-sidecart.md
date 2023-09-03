@@ -23,7 +23,7 @@ But a year ago, a member of the old Spanish "crews" managed to recover some of t
 
 That marked the beginning of my deep dive into what I term "hardcore retrocomputing": developing software for those now obsolete machines, not for any professional gain, but purely for the joy of doing and knowing that you're capable of accomplishing it. I got my hands on all the emulators, the MiSTer, cross compilers, and of course, an Atari STE (E for Enhanced), my teenage wet dream.
 
-My first "hardcore retrocomputing" project was a new cracktro where I aimed to fully exploit the capabilities of the Atari STE compared to the Atari ST: Blitter, hardware scroll, and so on. I posted updates on X (Formerly known as Twitter) about my progress, and this introduced me to more people from the Atari ST retro world. I developed it using modern tools which I packed into a Docker virtual image, which, by the way, I used for SidecarT as well.
+My first "hardcore retrocomputing" project was a new cracktro where I aimed to fully exploit the capabilities of the Atari STE compared to the Atari ST: Blitter, hardware scroll, and so on. I [posted updates on X (Formerly known as Twitter) about my progress](https://x.com/soyparrilla/status/1646959799446192128), and this introduced me to more people from the Atari ST retro world. I developed it using modern tools which I packed into a Docker virtual image, which, by the way, I used for SidecarT as well.
 
 <div class="plyr__video-embed" id="player">
   <iframe
@@ -57,10 +57,10 @@ The most glaring constraint is that it's a read-only device. There's no direct w
 
 Building on this old idea, the following occurred to me: What if we treat accessing ROM3 as if it were writing to a serial device? What if I develop a serial protocol that sends commands via the ROM3 address bus that are interpreted on the other end? Something like this:
 
-t0: Write to the ROM3 a header indicating the start of the transmission.
-t1: Write to the ROM3 the command to send.
-t2: Write to the ROM3 the size of the command payload.
-t3: Write to the ROM3 the command payload.
+- t0: Write to the ROM3 a header indicating the start of the transmission.
+- t1: Write to the ROM3 the command to send.
+- t2: Write to the ROM3 the size of the command payload.
+- t3: Write to the ROM3 the command payload.
 
 If you're familiar with embedded development, it's not unusual to encounter such protocols. However, this one has a few challenges to overcome:
 - It needs to be extremely fast. Each of these writes should occur at 500ns intervals since the Atari ST's system clock (not to be confused with the 8Mhz CPU clock) is 2Mhz.
