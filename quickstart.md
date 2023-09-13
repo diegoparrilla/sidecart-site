@@ -29,13 +29,8 @@ The SidecarT operates using a Raspberry Pi Pico W (Raspberry Pi Pico soon). You 
 
 To install and update the SidecarT firmware on the Raspberry Pi Pico W, you'll need a USB A to micro USB *data* cable. When purchasing from our store, a cable suited for this task is included. It's important to note the emphasis on a "data" cable - a simple charging cable won't suffice.
 
-Here's the revised text:
-
----
-
 With the latest improvements to the SidecarT project, using a microSD card is now optional, though it remains a good choice for extended storage and flexibility. Additionally, while having a WiFi Access Point for connecting the SidecarT enhances its capabilities, it's not mandatory. You can use the SidecarT with either of these options, both, or none at all, depending on your preferences.
 
----
 {:refdef: style="text-align: center;"}
 [![USB A to micro USB](/assets/image/quickstart/microusb.jpeg)](/assets/image/quickstart/microusb.jpeg){:.glightbox}
 {: refdef}
@@ -143,19 +138,19 @@ Enter the number corresponding to the ROM image you wish to emulate and press En
 
 For those utilizing a SidecarT with a Raspberry Pi Pico W, you have the capability to connect to a Wi-Fi network and fetch the ROM image directly from an HTTP server. 
 
-1. Initiate this by pressing '3' to access the *Wi-Fi configuration* menu.
+Initiate this by pressing '3' to access the *Wi-Fi configuration* menu.
 
 PLACEHOLDER FOR SIDECART.TOS SHOWING THE WIFI CONFIGURATION
 
-2. Once inside, scroll through the list of available networks. Confirm your desired network by pressing 'Enter'. If your chosen network is secure, you'll be prompted to input the password. After a successful connection, you'll be redirected to the main menu.
+Once inside, scroll through the list of available networks. Confirm your desired network by pressing 'Enter'. If your chosen network is secure, you'll be prompted to input the password. After a successful connection, you'll be redirected to the main menu.
 
 The connection status will then be displayed at the screen's base. Upon acquiring an IP address from the DHCP server, the SidecarT's IP address will be showcased. With this, a new menu option emerges: *Emulate ROM image from Wi-Fi*.
 
-3. Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option '4' for *SidecarT configuration*.
+Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option '4' for *SidecarT configuration*.
 
 PLACEHOLDER FOR SIDECART.TOS SHOWING THE ROMS AVAILABLE IN THE HTTP SERVER
 
-4. Scroll to your desired ROM image and confirm with 'Enter'. The system will handle the download and ready the ROM for execution on your next system startup or reset.
+Scroll to your desired ROM image and confirm with 'Enter'. The system will handle the download and ready the ROM for execution on your next system startup or reset.
 
 
 ## Step 8. Boot the ROM
