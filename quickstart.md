@@ -97,7 +97,7 @@ To use the SidecarT effectively, your microSD card needs to be formatted in FAT1
 
 ## Step 4. (Optional) Copy the ROM images onto the microSD card
 
-To get the ROM images for your SidecarT you can use your own images or you can have a look at this repo [here](https://romimages.sidecart.xyz) to download the available ROM images.
+To get the ROM images for your SidecarT you can use your own images or you can have a look at this [collection](/roms) to download the available ROM images.
 
 As a side not, SidecarT support STEEM ROM images format out of the box.
 
