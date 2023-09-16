@@ -33,8 +33,8 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/DeskCart.stc)
 
-- **Explorer 0.28**
-  - *Description*: A file explorer utility.
+- **Explorer**
+  - *Description*: A tool for extracting or 'ripping' data from games or applications on Atari.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/explorer%200.28.stc)
 
@@ -59,7 +59,7 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - [Link to ROM](http://roms.sidecart.xyz/Joust%20and%20Moon%20Patrol.STC)
 
 - **Magic SAC**
-  - *Description*: Software that allows running Macintosh software.
+  - *Description*: Apple MAC Roms for the Macintosh emulator.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/Magic%20SAC.stc)
 
@@ -79,7 +79,7 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - [Link to ROM](http://roms.sidecart.xyz/Missile%20Command.STC)
 
 - **Multiface ST 2.0**
-  - *Description*: Utility software allowing multiple software interfaces.
+  - *Description*: A tool for extracting or 'ripping' data from games or applications on Atari.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/Multiface%20ST%202.0.stc)
 
@@ -92,11 +92,6 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - *Description*: Join Rick Dangerous in his quest through various terrains filled with traps and enemies.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/Rick%20Dangerous.STC)
-
-- **SMS2**
-  - *Description*: System management software.
-  - *Size*: 128 KB
-  - [Link to ROM](http://roms.sidecart.xyz/SMS2.stc)
 
 - **ST Diagnostic 3.61**
   - *Description*: A comprehensive diagnostic tool for the Atari ST computer series.
@@ -113,8 +108,13 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - *Size*: 64 KB
   - [Link to ROM](http://roms.sidecart.xyz/STE%20Test%20v1.9.img)
 
+- **Small Multitasking System 2**
+  - *Description*: Small Multitasking System 2, an alternative OS
+  - *Size*: 128 KB
+  - [Link to ROM](http://roms.sidecart.xyz/SMS2.stc)
+
 - **Spectre GCR**
-  - *Description*: An emulator for running Macintosh software.
+  - *Description*: Apple MAC Roms for the Macintosh emulator.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/Spectre%20GCR.stc)
 
@@ -129,7 +129,7 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - [Link to ROM](http://roms.sidecart.xyz/Start%20Raiders.STC)
 
 - **Subhumans LLS**
-  - *Description*: Adventure game featuring the Subhumans.
+  - *Description*: A tool for extracting or 'ripping' data from games or applications on Atari.
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/Subhumans%20LLS.stc)
 
