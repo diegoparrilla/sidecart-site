@@ -33,6 +33,11 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
   - *Size*: 128 KB
   - [Link to ROM](http://roms.sidecart.xyz/DeskCart.stc)
 
+- **EmuTOS 1.2.1**
+  - *Description*: EmuTOS is a TOS compatible operating system for Atari ST series computers, and more. It is made from Digital Research's GPLed original sources and is a free and open source alternative to Atari proprietary ROMs.
+  - *Size*: 128 KB
+  - [Link to ROM](http://roms.sidecart.xyz/etoscart.img)
+
 - **Explorer**
   - *Description*: A tool for extracting or 'ripping' data from games or applications on Atari.
   - *Size*: 128 KB
