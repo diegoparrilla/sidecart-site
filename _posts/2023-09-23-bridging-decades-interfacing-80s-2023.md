@@ -52,11 +52,6 @@ It had a 16-bit data bus, corresponding to **data lines** D0-D15. This allowed f
 
 Beyond address and data lines, several **control lines** were essential for selecting the ROM and the parts of the data lines to read. These would include the ROM select lines ROM3 and ROM4, as well as UDS and LDS (for upper and lower byte selection).
 
-4. **ROM3 and ROM4**: These were select lines used to address the ROM within the cartridge. Since the Atari ST could address multiple ROMs or devices, ROM3 (FB0000-FBFFFF) and ROM4 (FA0000-FAFFFF) were used to differentiate and select the appropriate ROM or device on the cartridge.
-
-5. **UDS (Upper Data Strobe) and LDS (Lower Data Strobe)**: These are control signals used to select either the upper or lower byte of a 16-bit word in the Atari ST's 16-bit data bus. This allowed for byte-level access on a 16-bit system. When reading from or writing to a cartridge, the UDS and LDS lines would determine which half of the word (upper byte or lower byte) was being accessed.
-
-
 ## Bridging Decades: Interfacing the '80s to 2023
 
 TTL and 5.5V are unmistakably '80s. In our modern era, we lean towards CMOS technologies, 3.3 volts, and clock speeds in the hundreds of megahertz. Thus, before diving into the selection process for the SidecarT project's processing unit, it was glaringly obvious that incorporating a set of level shifters was imperative. These would facilitate conversions between the 5V to 3.3V ranges and from TTL to CMOS technologies—and, of course, back again.
