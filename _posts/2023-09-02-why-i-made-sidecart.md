@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Why I made SidecarT
+excerpt: "Explore SidecarT's journey from nostalgia to 'hardcore retrocomputing,' merging Atari ST's cartridge interface with modern tech to supercharge experience!"
 categories: [design]
+image: /assets/images/board-hand.png
 ---
 
 About 33 years ago, I packed my bags to leave La Rioja in the north of Spain to study Computer Science in Madrid. In that suitcase, my beloved Atari 1040STFM couldn't fit due to space constraints: I had no place to set it up in the student residence. And during my studies, we worked on the university's computation center's machines or on PCs. So, it stayed in my hometown, gathering dust. One summer, when I returned home, the computer was gone.
