@@ -35,7 +35,7 @@ The Atari ST's cartridge port was a direct extension of the system's bus, reflec
 
 The cartridge port featured a **double-row 40-pin configuration** designed to directly access the system's bus. This made the addition of external cartridges straightforward, as they could directly interface with the main system without complex adapters or converters.
 
-The Atari ST, like many computers of its era, was primarily based on** TTL (Transistor-Transistor Logic) technology**. This means the logic levels (i.e., what's considered a logical "high" or "low") were defined by typical TTL voltage levels. In practical terms, a high signal would be close to +5V, and a low signal would be close to 0V. This aspect will be key in the design of SidecarT, as we will see. The cartridge port provided a **+5V power pin** to supply power to the cartridges. This was consistent with the TTL logic levels used in the Atari ST. Additionally, ground pins were provided to complete the electrical circuit and ensure proper operation.
+The Atari ST, like many computers of its era, was primarily based on **TTL (Transistor-Transistor Logic) technology**. This means the logic levels (i.e., what's considered a logical "high" or "low") were defined by typical TTL voltage levels. In practical terms, a high signal would be close to +5V, and a low signal would be close to 0V. This aspect will be key in the design of SidecarT, as we will see. The cartridge port provided a **+5V power pin** to supply power to the cartridges. This was consistent with the TTL logic levels used in the Atari ST. Additionally, ground pins were provided to complete the electrical circuit and ensure proper operation.
 
 The design of the cartridge port had a **reduced number of 68000 control lines**. This simplification was crucial to ease the construction of cartridges, making it more feasible for developers to create a range of hardware expansions without dealing with excessive complexity in interfacing with the 68000’s control lines. Interestingly, the designers of the Atari ST made a conscious decision for the cartridge port to be **read-only**. This choice might have stemmed from the simplification of control lines or potentially due to budget constraints; it’s a bit of a mystery. While this read-only nature was a limiting feature for solutions relying on the cartridge, it inevitably sparked the ingenuity to develop smart workarounds.
 
@@ -43,7 +43,7 @@ The Atari ST featured a CPU clock of 8MHz, but its system clock actually operate
 
 ## Address, Data, & Control Lines: The bus
 
-The Atari ST's cartridge port was an extension of its main system bus. The Motorola 68000 allowed a 32-bit address space (4 gigabytes), but the Atari ST's native address space would use 24 **address lines** (A0-A23), which allows it to address up to 16MB (2^24 bytes) of memory but reduced to 4MB because some of the address space was for ROMs and peripherals. Only 17 address lines (A0=!UDS, A1-A15, A16=!ROM4) were routed to the cartridge port and were used to access the memory range from $FA0000 to $FBFFFF, addressing effectively 128 Kbytes of ROM memory.
+The Atari ST's cartridge port was an extension of its main system bus. The Motorola 68000 allowed a 32-bit address space (4 gigabytes), but the Atari ST's native address space would use 24 **address lines** (A0-A23), which allows it to address up to 16MB (2^24 bytes) of memory but reduced to 4MB because some of the address space was for ROMs and peripherals. Only 17 address lines (A0=!UDS, A1-A15, A16=!ROM4) were routed to the cartridge port and were used to access the memory range from FA0000 to FBFFFF, addressing effectively 128 Kbytes of ROM memory.
 
 [![ST Memory map (info-coach.fr)](/assets/blog/images/stmemorymap_french.jpeg)](/assets/blog/images/stmemorymap_french.jpeg){:.glightbox}
 
@@ -52,7 +52,7 @@ It had a 16-bit data bus, corresponding to **data lines** D0-D15. This allowed f
 
 Beyond address and data lines, several **control lines** were essential for selecting the ROM and the parts of the data lines to read. These would include the ROM select lines ROM3 and ROM4, as well as UDS and LDS (for upper and lower byte selection).
 
-4. **ROM3 and ROM4**: These were select lines used to address the ROM within the cartridge. Since the Atari ST could address multiple ROMs or devices, ROM3 ($FB0000-$FBFFFF) and ROM4 ($FA0000-$FAFFFF) were used to differentiate and select the appropriate ROM or device on the cartridge.
+4. **ROM3 and ROM4**: These were select lines used to address the ROM within the cartridge. Since the Atari ST could address multiple ROMs or devices, ROM3 (FB0000-FBFFFF) and ROM4 (FA0000-FAFFFF) were used to differentiate and select the appropriate ROM or device on the cartridge.
 
 5. **UDS (Upper Data Strobe) and LDS (Lower Data Strobe)**: These are control signals used to select either the upper or lower byte of a 16-bit word in the Atari ST's 16-bit data bus. This allowed for byte-level access on a 16-bit system. When reading from or writing to a cartridge, the UDS and LDS lines would determine which half of the word (upper byte or lower byte) was being accessed.
 
