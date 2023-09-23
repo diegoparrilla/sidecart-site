@@ -75,6 +75,6 @@ To be honest, by this point, I still didn’t know which central processing unit
 [![74AHCT245 level shifter board](/assets/blog/images/levelshiftersboard74ahct245.png)](/assets/blog/images/levelshiftersboard74ahct245.png){:.glightbox}
 
 
-In upcoming blog entries, I'll spill the beans on choosing the microcontroller RP2040 and compare the mishaps I encountered while scouring for the best possible option. It’s been quite the adventure in tech land, and who knew choosing a microcontroller could stir up so much drama! Stay tuned!
+In upcoming blog entries, I'll spill the beans on choosing the microcontroller RP2040 and compare the mishaps I encountered while scouring for the best possible option. Stay tuned!
 
 
