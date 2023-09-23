@@ -3,7 +3,7 @@ layout: post
 title: "Bridging Decades: Interfacing the '80s to 2023"
 excerpt: "It’s been nearly 30 years since I managed to pass my Digital Circuits and Microprocessor Design classes. Ah, those were the days! We were so unpolished..."
 categories: [design]
-image: /assets/blog/images/520stcartridgeview.png
+image: /assets/blog/images/520stcartridgeview.jpeg
 ---
 
 It’s been nearly 30 years since I managed to pass my Digital Circuits and Microprocessor Design classes. Ah, those were the days! We were so unpolished that, to make our circuits work, we had to stealthily place a finger on the circuit, hoping the assessing professor wouldn’t notice… Obviously, jumping headfirst into software professionally was the sound choice.
