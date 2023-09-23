@@ -3,7 +3,7 @@ layout: post
 title: "Bridging Decades: Interfacing the '80s to 2023"
 excerpt: "Explore the blend of '80s Atari ST & 2023 tech with SidecarT! Dive into cartridge interfaces, TTL tech, and more with upcoming insights on RP2040"
 categories: [design]
-image: /assets/blog/images/stcartport.png
+image: /assets/blog/images/520stcartridgeview.png
 ---
 
 It’s been nearly 30 years since I managed to pass my Digital Circuits and Microprocessor Design classes. Ah, those were the days! We were so unpolished that, to make our circuits work, we had to stealthily place a finger on the circuit, hoping the assessing professor wouldn’t notice… Obviously, jumping headfirst into software professionally was the sound choice.
