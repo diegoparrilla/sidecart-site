@@ -23,9 +23,7 @@ The Atari ST's cartridge port was primarily designed for:
 
 3. **Diagnostic Tools**: The cartridge interface could be used for hardware diagnostic cartridges. These would boot the system into a diagnostic mode to check the system's functionality and troubleshoot issues.
 
-4. **ROM-Based Applications**: Some software or system expansions could be ROM-based and plugged into the cartridge port. This ensured quick booting and execution without relying on a disk drive.
-
-5. **Hardware Expansion**: Beyond its more software-oriented roles, the cartridge interface also opened doors to hardware augmentation. It allowed the connection of additional hardware modules to extend the capabilities and functionalities of the Atari ST, offering a playground for enthusiasts and developers to experiment and innovate.
+4. **Hardware Expansion**: Beyond its more software-oriented roles, the cartridge interface also opened doors to hardware augmentation. It allowed the connection of additional hardware modules to extend the capabilities and functionalities of the Atari ST, offering a playground for enthusiasts and developers to experiment and innovate.
 
 ## Diving into the Technical Heart: The Intricacies of Atari ST’s Cartridge Port
 
