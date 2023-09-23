@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bridging Decades: Interfacing the '80s to 2023"
-excerpt: "Explore the blend of '80s Atari ST & 2023 tech with SidecarT! Dive into cartridge interfaces, TTL tech, and more with upcoming insights on RP2040"
+excerpt: "It’s been nearly 30 years since I managed to pass my Digital Circuits and Microprocessor Design classes. Ah, those were the days! We were so unpolished..."
 categories: [design]
 image: /assets/blog/images/520stcartridgeview.png
 ---
