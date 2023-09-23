@@ -11,7 +11,7 @@ image: /assets/images/board-hand.png
 While it may seem straightforward, the initial step involves obtaining a functional Atari ST, STE, or Mega computer. It's okay if certain components aren't in perfect shape—for instance, the floppy drive or the hard disk might not be operational—as long as the machine can power on. If you haven't secured one yet, consider checking second-hand sales websites or specialized forums such as [Atari Forum](https://www.atari-forum.com/) and [Atari Age](https://www.atariage.com/).
 
 {:refdef: style="text-align: center;"}
-[![Atari 520ST](/assets/image/quickstart/atari520st.jpeg)](/assets/mage/quickstart/atari520st.jpeg){:.glightbox}
+[![Atari 520ST](/assets/images/quickstart/atari520st.jpeg)](/assets/mage/quickstart/atari520st.jpeg){:.glightbox}
 {: refdef}
 
 ## Step 1. Acquire a SidecarT board
@@ -19,14 +19,14 @@ While it may seem straightforward, the initial step involves obtaining a functio
 To get your hands on a SidecarT, you can either [purchase it from our store](/buy) or [build one yourself](/build).
 
 {:refdef: style="text-align: center;"}
-[![SidecarT without Raspberry Pi Pico](/assets/image/quickstart/board-single.png)](/assets/image/quickstart/board-single.png){:.glightbox}
+[![SidecarT without Raspberry Pi Pico](/assets/images/quickstart/board-single.png)](/assets/images/quickstart/board-single.png){:.glightbox}
 {: refdef}
 
 
 The SidecarT operates using a Raspberry Pi Pico W (Raspberry Pi Pico soon). You have the option to purchase the SidecarT with an included and pre-configured Raspberry Pi Pico W, or you can buy one separately. If you choose to purchase one on your own, you should look for a Raspberry Pi Pico WH, which already comes with the necessary 40-pin connectors to attach to the SidecarT's motherboard. Alternatively, you can buy a Raspberry Pi Pico W and procure two 20-pin connectors, then solder them to the board yourself. Here's a [link to a manufacturer](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C50981_C50981.html) for reference.
 
 {:refdef: style="text-align: center;"}
-[![Raspberry Pi Pico WH](/assets/image/quickstart/raspberry-pi-pico-rp2040-wh.png)](/assets/image/quickstart/raspberry-pi-pico-rp2040-wh.png){:.glightbox}
+[![Raspberry Pi Pico WH](/assets/images/quickstart/raspberry-pi-pico-rp2040-wh.png)](/assets/images/quickstart/raspberry-pi-pico-rp2040-wh.png){:.glightbox}
 {: refdef}
 
 To install and update the SidecarT firmware on the Raspberry Pi Pico W, you'll need a USB A to micro USB *data* cable. When purchasing from our store, a cable suited for this task is included. It's important to note the emphasis on a "data" cable - a simple charging cable won't suffice.
@@ -34,7 +34,7 @@ To install and update the SidecarT firmware on the Raspberry Pi Pico W, you'll n
 With the latest improvements to the SidecarT project, using a microSD card is now optional, though it remains a good choice for extended storage and flexibility. Additionally, while having a WiFi Access Point for connecting the SidecarT enhances its capabilities, it's not mandatory. You can use the SidecarT with either of these options, both, or none at all, depending on your preferences.
 
 {:refdef: style="text-align: center;"}
-[![USB A to micro USB](/assets/image/quickstart/microusb.jpeg)](/assets/image/quickstart/microusb.jpeg){:.glightbox}
+[![USB A to micro USB](/assets/images/quickstart/microusb.jpeg)](/assets/images/quickstart/microusb.jpeg){:.glightbox}
 {: refdef}
 
 ## Step 2. Install the latest firmware version on the SidecarT
@@ -42,7 +42,7 @@ With the latest improvements to the SidecarT project, using a microSD card is no
 To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named `RPI-RP2` should appear on your PC, Mac, or Linux. Open it.
 
 {:refdef: style="text-align: center;"}
-[![How enter in BOOTSEL mode](/assets/image/quickstart/bootsel-mode.gif)](/assets/image/quickstart/bootsel-mode.gif){:.glightbox}
+[![How enter in BOOTSEL mode](/assets/images/quickstart/bootsel-mode.gif)](/assets/images/quickstart/bootsel-mode.gif){:.glightbox}
 {: refdef}
 
 In this directory, you will need to copy the latest available Firmware version, which you can directly download from the links below:
@@ -113,7 +113,7 @@ As a side not, SidecarT support STEEM ROM images format out of the box.
 Before turning on your computer, plug the SidecarT into the cartridge interface on the side of the computer. **It's crucial to ensure that the Raspberry Pi Pico faces upwards**.
 
 {:refdef: style="text-align: center;"}
-[![How to plug the SidecarT in the Atari ST cartridge](/assets/image/quickstart/plug-sidecart.gif)](/assets/image/quickstart/plug-sidecart.gif){:.glightbox}
+[![How to plug the SidecarT in the Atari ST cartridge](/assets/images/quickstart/plug-sidecart.gif)](/assets/images/quickstart/plug-sidecart.gif){:.glightbox}
 {: refdef}
 
 Make sure to handle the SidecarT carefully to avoid any damage. Once connected, you can turn on the computer and proceed with using the SidecarT.
@@ -125,7 +125,7 @@ When powering on the computer for the first time with SidecarT connected, it wil
 > Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'F' in Morse code. 
 
 {:refdef: style="text-align: center;"}
-[![First boot with SidecarT in condfigurator mode](/assets/image/quickstart/firstboot-menu.gif)](/assets/image/quickstart/firstboot-menu.gif){:.glightbox}
+[![First boot with SidecarT in condfigurator mode](/assets/images/quickstart/firstboot-menu.gif)](/assets/images/quickstart/firstboot-menu.gif){:.glightbox}
 {: refdef}
 
 Upon booting, the classic Atari GEM desktop should appear with an additional icon labeled "Cartridge". Open it, and inside you'll find a file named `SIDECART.TOS`. Run it.
@@ -147,7 +147,7 @@ For those utilizing a SidecarT with a Raspberry Pi Pico W, you have the capabili
 Initiate this by pressing '3' to access the *Wi-Fi configuration* menu.
 
 {:refdef: style="text-align: center;"}
-[![Wifi configuraton of SidecarT](/assets/image/quickstart/wifi-config.gif)](/assets/image/quickstart/wifi-config.gif){:.glightbox}
+[![Wifi configuraton of SidecarT](/assets/images/quickstart/wifi-config.gif)](/assets/images/quickstart/wifi-config.gif){:.glightbox}
 {: refdef}
 
 Once inside, scroll through the list of available networks. Confirm your desired network by pressing 'Enter'. If your chosen network is secure, you'll be prompted to input the password. After a successful connection, you'll be redirected to the main menu.
@@ -157,7 +157,7 @@ The connection status will then be displayed at the screen's base. Upon acquirin
 Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option '4' for *SidecarT configuration*.
 
 {:refdef: style="text-align: center;"}
-[![Show the ROMS available in the HTTP server](/assets/image/quickstart/boot-from-wifi.gif)](/assets/image/quickstart/boot-from-wifi.gif){:.glightbox}
+[![Show the ROMS available in the HTTP server](/assets/images/quickstart/boot-from-wifi.gif)](/assets/images/quickstart/boot-from-wifi.gif){:.glightbox}
 {: refdef}
 
 Scroll to your desired ROM image and confirm with 'Enter'. The system will handle the download and ready the ROM for execution on your next system startup or reset.
@@ -168,7 +168,7 @@ Scroll to your desired ROM image and confirm with 'Enter'. The system will handl
 Now you can reset or power cycle your computer. Every time you reset or power cycle your computer, it will load the image as a genuine cartridge ROM.
 
 {:refdef: style="text-align: center;"}
-[![Boot ROM from Wi-Fi in SidecarT](/assets/image/quickstart/boot-rom.gif)](/assets/image/quickstart/boot-rom.gif){:.glightbox}
+[![Boot ROM from Wi-Fi in SidecarT](/assets/images/quickstart/boot-rom.gif)](/assets/images/quickstart/boot-rom.gif){:.glightbox}
 {: refdef}
 
 ## Extra bonus. Load a different ROM / Enter CONFIGURATOR mode again
@@ -176,7 +176,7 @@ Now you can reset or power cycle your computer. Every time you reset or power cy
 If you want to reconfigure the SidecarT for a different feature or simply load a different ROM, there is a special button in the SidecarT board for it: the SELECT button.
 
 {:refdef: style="text-align: center;"}
-[![Boot in SELECT mode in SidecarT](/assets/image/quickstart/select-button.gif)](/assets/image/quickstart/select-button.gif){:.glightbox}
+[![Boot in SELECT mode in SidecarT](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button.gif){:.glightbox}
 {: refdef}
 
 To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'F' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
