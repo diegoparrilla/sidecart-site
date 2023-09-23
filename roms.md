@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ROMS list
+excerpt: "List of ROMS available"
+image: /assets/images/board-hand.png
 permalink: /roms/
 ---
 

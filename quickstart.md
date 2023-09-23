@@ -2,6 +2,8 @@
 layout: page
 title: Quickstart
 permalink: /quickstart
+excerpt: "Quickstart page for SidecarT setup! Merge Atari ST's nostalgia with modern tech. Grab an Atari, integrate SidecarT, and experience supercharged retrocomputing!"
+image: /assets/images/board-hand.png
 ---
 
 ## (Obvious) Prerequisite.Grab an Atari ST/STE/Mega
