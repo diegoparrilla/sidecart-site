@@ -13,6 +13,8 @@ The SidecarT firmware runs on the Raspberry Pi Pico, facilitating communication 
 ### Raspberry Pi Pico W 
 - **Latest Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
 
+- **Latest DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
+
 ### Raspberry Pi Pico
 *Coming soon*
 

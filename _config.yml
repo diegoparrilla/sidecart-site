@@ -60,6 +60,9 @@ footer_navigation_links:
   - title: ROMs
     url: /roms
 
+  - title: Changelog
+    url: /changelog
+
   - title: Contact
     url: /contact
 
@@ -130,6 +133,6 @@ exclude:
 google_analytics: G-6VT9RXTJ2N
 
 # Versions of SidecarT
-FIRMWARE_VERSION: v0.0.8a
+FIRMWARE_VERSION: v0.0.9
 TEST_FIRMWARE_VERSION: v0.0.3
 
