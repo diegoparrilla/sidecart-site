@@ -653,18 +653,8 @@ footer {
 .bordered-section {
   border: 1px solid red;
   color: red;
-  position: relative; /* Added to position the pseudo-element */
 }
-
-.important-section::before {
-  content: '⚠'; /* Unicode character for warning symbol */
-  position: absolute;
-  left: -20px; /* Adjust as needed */
-  top: 50%;
-  transform: translateY(-50%);
-  color: red; /* To ensure the color of the icon is red */
-}
-
+ 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
