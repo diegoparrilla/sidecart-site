@@ -8,6 +8,10 @@ We're here to help and answer any question you might have. We look forward to he
 
 ## Ways to Contact Us
 
+### 💬 Discord
+NEW Discord server:
+Click the link and join the [Discord Server](https://discord.gg/eP3ZeMvQY8)
+
 ### 📧 Email
 For general inquiries, feel free to reach out to us via email:
 [sidecart [AT] gooddatalabs.com](mailto:sidecart [AT] gooddatalabs.com)
@@ -21,6 +25,7 @@ Send me a message on my [Atari Forum account](https://www.atari-forum.com/member
 
 ### 📺 Retrowiki
 También me puedes encontrar en [Retrowiki](https://retrowiki.es/memberlist.php?mode=viewprofile&u=7762) en español.
+
 
 ---
 
