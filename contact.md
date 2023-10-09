@@ -10,7 +10,7 @@ We're here to help and answer any question you might have. We look forward to he
 
 ### 💬 Discord
 NEW Discord server:
-Click the link and join the [Discord Server](https://discord.gg/eP3ZeMvQY8)
+Click the link and join the [Discord Server]({{ site.DISCORD_INVITATION }})
 
 ### 📧 Email
 For general inquiries, feel free to reach out to us via email:
