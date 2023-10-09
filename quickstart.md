@@ -180,3 +180,7 @@ If you want to reconfigure the SidecarT for a different feature or simply load a
 {: refdef}
 
 To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'F' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
+
+## Need help?
+
+Check out our [contact us](/contact) paeg if you have any questions or issues. We're happy to help!
