@@ -39,9 +39,8 @@ With the latest improvements to the SidecarT project, using a microSD card is no
 
 ## Step 2. Install the latest firmware version on the SidecarT
 
-{: .important}
-If your purchased SidecarT includes the Raspberry Pi Pico W, this step is unnecessary. The device arrives with the most recent firmware version already installed.
-{: .important}
+> :warning: **Important:** If your purchased SidecarT includes the Raspberry Pi Pico W, this step is unnecessary. The device arrives with the most recent firmware version already installed.
+
 
 To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named `RPI-RP2` should appear on your PC, Mac, or Linux. Open it.
 
