@@ -39,7 +39,7 @@ With the latest improvements to the SidecarT project, using a microSD card is no
 
 ## Step 2. Install the latest firmware version on the SidecarT
 
-> :warning: **Important:** If your purchased SidecarT includes the Raspberry Pi Pico W, this step is unnecessary. The device arrives with the most recent firmware version already installed.
+> :warning: If your purchased SidecarT includes the Raspberry Pi Pico W or WH, this step is unnecessary. The device arrives with the most recent firmware version already installed.
 
 
 To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named `RPI-RP2` should appear on your PC, Mac, or Linux. Open it.
@@ -59,6 +59,8 @@ In this directory, you will need to copy the latest available Firmware version, 
 Once you've copied the file corresponding to your Raspberry Pico version, disconnect the power cable. The new firmware has now been flashed.
 
 ## Step 3. (Optional) Format the microSD card to FAT16
+
+> :warning: If you're aiming for a brief test of the SidecarT, you can bypass this step and move directly to step 5. Yet, for those intending to use the SidecarT with a microSD card, this step is indispensable.
 
 To use the SidecarT effectively, your microSD card needs to be formatted in FAT16. Here's how you can format it in FAT16 on various platforms:
 
