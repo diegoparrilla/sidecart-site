@@ -16,7 +16,7 @@ While it may seem straightforward, the initial step involves obtaining a functio
 
 ## Step 1. Acquire a SidecarT board
 
-To get your hands on a SidecarT, you can either [purchase it from our store](/buy) or [build one yourself](/build).
+To get your hands on a SidecarT, you can either [purchase it from our store](https://gooddatalabs.myshopify.com/) or [build one yourself](https://docs.sidecart.xyz/architecture_and_design/).
 
 {:refdef: style="text-align: center;"}
 [![SidecarT without Raspberry Pi Pico](/assets/images/quickstart/board-single.png)](/assets/images/quickstart/board-single.png){:.glightbox}
@@ -38,6 +38,10 @@ With the latest improvements to the SidecarT project, using a microSD card is no
 {: refdef}
 
 ## Step 2. Install the latest firmware version on the SidecarT
+
+{: .important}
+If your purchased SidecarT includes the Raspberry Pi Pico W, this step is unnecessary. The device arrives with the most recent firmware version already installed.
+{: .important}
 
 To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your PC, Mac, or Linux to the Raspberry Pi Pico W using the USB cable. Before powering on the Raspberry Pi Pico W, hold down the BOOTSEL button for a few seconds and then plug in the USB cable. A new drive named `RPI-RP2` should appear on your PC, Mac, or Linux. Open it.
 
@@ -180,6 +184,14 @@ If you want to reconfigure the SidecarT for a different feature or simply load a
 {: refdef}
 
 To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'F' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
+
+## What's next?
+
+You can now explore the different features available in the SidecarT. You can find more information about them in the [Configuration](https://docs.sidecart.xyz/configuration) section of the documentation.
+
+1. [Configure the SidecarT to Emulate a Floppy Drive](https://docs.sidecart.xyz/configuration/#floppies-emulation-configuration-preview)
+2. [Configure the SidecarT in Ripper mode](https://docs.sidecart.xyz/configuration/#enable-rom-delay--ripper-mode)
+3. [Setup your own ROMs hosting web server](https://docs.sidecart.xyz/how_to/#set-up-your-own-http-server-for-your-romsw)
 
 ## Need help?
 
