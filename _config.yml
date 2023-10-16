@@ -82,6 +82,10 @@ footer_links:
     url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico
     icon: fa fa-github-square
 
+  - title: YouTube
+    url: https://www.youtube.com/playlist?list=PLgFeo6j1x_BqiJyDlzqQeZg9hn4TK_iCL
+    icon: fa fa-youtube-square
+
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
 
