@@ -149,7 +149,7 @@ Enter the number corresponding to the ROM image you wish to emulate and press En
 
 For those utilizing a SidecarT with a Raspberry Pi Pico W, you have the capability to connect to a Wi-Fi network and fetch the ROM image directly from an HTTP server. 
 
-Initiate this by pressing '3' to access the *Wi-Fi configuration* menu.
+Initiate this by pressing 'W' to access the *Wi-Fi configuration* menu.
 
 {:refdef: style="text-align: center;"}
 [![Wifi configuraton of SidecarT](/assets/images/quickstart/wifi-config.gif)](/assets/images/quickstart/wifi-config.gif){:.glightbox}
@@ -159,7 +159,7 @@ Once inside, scroll through the list of available networks. Confirm your desired
 
 The connection status will then be displayed at the screen's base. Upon acquiring an IP address from the DHCP server, the SidecarT's IP address will be showcased. With this, a new menu option emerges: *Emulate ROM image from Wi-Fi*.
 
-Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option '4' for *SidecarT configuration*.
+Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option 'C' for *SidecarT configuration*.
 
 {:refdef: style="text-align: center;"}
 [![Show the ROMS available in the HTTP server](/assets/images/quickstart/boot-from-wifi.gif)](/assets/images/quickstart/boot-from-wifi.gif){:.glightbox}
@@ -184,7 +184,7 @@ If you want to reconfigure the SidecarT for a different feature or simply load a
 [![Boot in SELECT mode in SidecarT](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button.gif){:.glightbox}
 {: refdef}
 
-To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'C' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
+To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for **more than a second** and power cycle your computer. The Raspberry Pi Pico W will blink the 'C' in morse code. It will boot again in CONFIGURATOR mode like in step 6.
 
 ## What's next?
 
