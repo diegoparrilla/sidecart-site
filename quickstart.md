@@ -125,7 +125,7 @@ Make sure to handle the SidecarT carefully to avoid any damage. Once connected, 
 
 When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, it only acts as a ROM emulator. 
 
-> Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'F' in Morse code. 
+> Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'C' in Morse code. 
 
 {:refdef: style="text-align: center;"}
 [![First boot with SidecarT in condfigurator mode](/assets/images/quickstart/firstboot-menu.gif)](/assets/images/quickstart/firstboot-menu.gif){:.glightbox}
@@ -182,7 +182,7 @@ If you want to reconfigure the SidecarT for a different feature or simply load a
 [![Boot in SELECT mode in SidecarT](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button.gif){:.glightbox}
 {: refdef}
 
-To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'F' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
+To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for more than a second, wait for the Raspberry Pi Pico W to blink the 'C' in morse code and reset or power cycle your computer. It will boot again in CONFIGURATOR mode like in step 6.
 
 ## What's next?
 
