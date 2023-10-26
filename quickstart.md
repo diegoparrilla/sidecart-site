@@ -188,7 +188,7 @@ To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button
 
 ## What's next?
 
-You can now explore the different features available in the SidecarT. You can find more information about them in the [Configuration](https://docs.sidecart.xyz/configuration) section of the documentation.
+You can now explore the different features available in the SidecarT. You can find more information in the [Documentation](https://docs.sidecart.xyz) site.
 
 1. [Configure the SidecarT to Emulate a Floppy Drive](https://docs.sidecart.xyz/configuration/#floppies-emulation-configuration-preview)
 2. [Configure the SidecarT in Ripper mode](https://docs.sidecart.xyz/configuration/#enable-rom-delay--ripper-mode)
