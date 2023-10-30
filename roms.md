@@ -33,6 +33,7 @@ You can find the full list in the JSON file [here](http://roms.sidecart.xyz/roms
 | [Mystery1](http://roms.sidecart.xyz/Mystery1.stc) | A mysterious game. Can you solve the puzzle? | 128 |
 | [Revenge of the Mutant Camels](http://roms.sidecart.xyz/REVCART.STC) | The follow-up game of the classic Attack of the Mutant Camels. | 128 |
 | [Rick Dangerous](http://roms.sidecart.xyz/Rick%20Dangerous.STC) | Join Rick Dangerous in his quest through various terrains filled with traps and enemies. | 128 |
+| [Shackled](http://roms.sidecart.xyz/Shackled.bin) | Shackled is an Atari's Gauntlet-like run and gun video game developed by Data East and released in 1986 for arcades. | 128 |
 | [Small Multitasking System 2](http://roms.sidecart.xyz/SMS2.stc) | Small Multitasking System 2, an alternative OS | 128 |
 | [Spectre GCR](http://roms.sidecart.xyz/Spectre%20GCR.stc) | Apple MAC Roms for the Macintosh emulator. | 128 |
 | [ST Diagnostic 3.61](http://roms.sidecart.xyz/ST%20Diagnostic%203.61.img) | A comprehensive diagnostic tool for the Atari ST computer series. | 32 |
