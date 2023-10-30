@@ -36,11 +36,8 @@ navigation_links:
   - title: Blog
     url: /blog
 
-  - title: Config
-    url: https://docs.sidecart.xyz/configuration
-
-  - title: Coding
-    url: https://docs.sidecart.xyz/software_development
+  - title: Docs
+    url: https://docs.sidecart.xyz
 
   - title: Buy
     url: https://gooddatalabs.myshopify.com
