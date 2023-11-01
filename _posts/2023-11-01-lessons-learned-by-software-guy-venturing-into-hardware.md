@@ -3,7 +3,7 @@ layout: post
 title: "Lessons Learned by a Software Guy Venturing into Hardware"
 excerpt: "I've been in the software game for almost 30 years professionally, with another 10 dabbling in programming. I'm one of those who think anyone can code, but creating a software product..."
 categories: [design]
-image: /assets/blog/images/520stcartridgeview.jpeg
+image: /assets/images/board-batches.png
 ---
 
 I've been in the software game for almost 30 years professionally, with another 10 dabbling in programming. I'm one of those who think anyone can code, but creating a software product is a feat few can achieve. It might sound a bit arrogant, but I know how to make and sell software products. However, hardware was an entirely new world for me. I found it to be an unforgiving, harsh, complex terrain... yet incredibly rewarding. Join me in this post as I share my journey in developing the SidecarT. Fair warning: some of my views might stir up controversy, but you'll surely walk away with valuable (or debatable, depending on how you look at it) lessons.
@@ -148,7 +148,7 @@ If you suddenly need to ship 100 packages worldwide, you realize you have a logi
 
 1. **Seek to Reduce Shipping Costs as Much as Possible**: A high shipping cost deters sales, whereas a reasonable shipping cost is neutral, not influencing the decision. In my case, I aimed for all shipments to be under 100 grams, allowing me to send them as registered mail with tracking at a price below €10 always.
 2. **Automate Data Loading and Label Printing with Postal Service Tools**: Needless to say, this saves an infinite amount of time.
-3. **Choosing Shopify for Its Logistic Management Support**: Another reason I chose Shopify is because it aids in this management. Another factor was Tindie - a marketplace supposedly specialized in selling homebrew hardware - who didn’t pay any attention to me. So, I explored other possibilities and found that using Shopify's basic plan was much better and cheaper. Thanks for giving me time to think, Tindie!"
+3. **Choosing Shopify for Its Logistic Management Support**: Another reason I chose Shopify is because it aids in this management. Another factor was Tindie - a marketplace supposedly specialized in selling homebrew hardware - who didn’t pay any attention to me. So, I explored other possibilities and found that using Shopify's basic plan was much better and cheaper. Thanks for giving me time to think, Tindie!
 
 ## Essential Legal Considerations for Homebrew Makers
 
