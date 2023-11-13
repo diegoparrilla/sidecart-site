@@ -8,21 +8,23 @@ Welcome to the official download center for SidecarT firmware and software. Find
 
 ## SidecarT Firmware
 
-The SidecarT firmware runs on the Raspberry Pi Pico, facilitating communication with the Atari ST.
+The SidecarT firmware runs on the Raspberry Pi Pico W, facilitating communication with the Atari ST. Updating the software is as simple as copying the firmware file to the Pico's USB drive. You can follow the [Update the firmware](https://docs.sidecart.xyz/how_to#update-the-firmware) guide or revisit the [Quickstart](/quickstart) section.
 
-### Latest STABLE releases
+
+### Latest STABLE release
 - **Latest STABLE Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
 - **Latest STABLE DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
 
-### Latest BETA releases
+### Latest BETA release
 - **Latest BETA Firmware Version:** [sidecart-pico_w-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-BETA.uf2)
 - **Latest BETA DEBUG Firmware Version:** [sidecart-pico_w-debug-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-debug-BETA.uf2)
+
 
 [🔗 View All Firmware Versions on GitHub](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases)
 
 ## SidecarT Test Software
 
-The test software runs on the Atari ST, checking the SidecarT's communication capabilities.
+The test software runs on the Atari ST, checking the SidecarT's communication capabilities. 
 
 ### Installation Instructions:
 1. Copy both `TESTSCRT.TOS` and `TESTROM.BIN` to a floppy disk or a hard disk partition on your Atari ST.
