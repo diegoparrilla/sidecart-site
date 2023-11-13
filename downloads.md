@@ -10,13 +10,13 @@ Welcome to the official download center for SidecarT firmware and software. Find
 
 The SidecarT firmware runs on the Raspberry Pi Pico, facilitating communication with the Atari ST.
 
-### Raspberry Pi Pico W 
-- **Latest Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
+### Latest STABLE releases
+- **Latest STABLE Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
+- **Latest STABLE DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
 
-- **Latest DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
-
-### Raspberry Pi Pico
-*Coming soon*
+### Latest BETA releases
+- **Latest BETA Firmware Version:** [sidecart-pico_w-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-BETA.uf2)
+- **Latest BETA DEBUG Firmware Version:** [sidecart-pico_w-debug-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-debug-BETA.uf2)
 
 [🔗 View All Firmware Versions on GitHub](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases)
 

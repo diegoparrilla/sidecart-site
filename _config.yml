@@ -141,6 +141,7 @@ google_analytics: G-6VT9RXTJ2N
 
 # Versions of SidecarT
 FIRMWARE_VERSION: v0.0.11
+FIRMWARE_BETA_VERSION: beta-v0.0.12
 TEST_FIRMWARE_VERSION: v0.0.3
 
 # Discord invitation
