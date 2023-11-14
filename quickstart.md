@@ -187,12 +187,15 @@ To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button
 
 ## What's next?
 
-You can now explore the different features available in the SidecarT. You can find more information in the [Documentation](https://docs.sidecart.xyz) site.
+You can now explore the different features available in the SidecarT.
 
-1. [Configure the SidecarT to download floppy images from the Atari ST database](https://docs.sidecart.xyz/userguide/#atari-st-database-of-floppy-images)
-1. [Configure the SidecarT to Emulate a Floppy Drive](https://docs.sidecart.xyz/userguide/#floppies-emulation-configuration-preview)
-2. [Configure the SidecarT in Ripper mode](https://docs.sidecart.xyz/userguide/#enable-rom-delay--ripper-mode)
-3. [Setup your own ROMs hosting web server](https://docs.sidecart.xyz/how_to/#set-up-your-own-http-server-for-your-romsw)
+1. [Download floppy images from the Atari ST database](https://docs.sidecart.xyz/userguide/#atari-st-database-of-floppy-images)
+2. [Emulate a Floppy Drive](https://docs.sidecart.xyz/userguide/#floppies-emulation-configuration-preview)
+3. [Real Time Clock](https://docs.sidecart.xyz/userguide/#real-time-clock-rtc)
+4. [SidecarT in Ripper mode](https://docs.sidecart.xyz/userguide/#enable-rom-delay--ripper-mode)
+5. [Setup your own ROMs hosting web server](https://docs.sidecart.xyz/how_to/#set-up-your-own-http-server-for-your-romsw)
+
+You can find more information in the [Documentation](https://docs.sidecart.xyz) site.
 
 ## Need help?
 
