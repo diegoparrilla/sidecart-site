@@ -26,12 +26,12 @@ Send me a message on my [Atari Forum account](https://www.atari-forum.com/member
 ### 📺 Retrowiki
 También me puedes encontrar en [Retrowiki](https://retrowiki.es/memberlist.php?mode=viewprofile&u=7762) en español.
 
-### And of course snail mail
+### 🏤 And of course snail mail
 
 If you'd like to send us some cool swag, delicious cakes, or gifts, we'd be thrilled to receive them! Please send them to the following address. Or, in the unfortunate event that you need to return a SidecarT, you can also send it to this address:
 
 ```
-GOOD DATA LABS S.L.
+GOODDATA LABS S.L.
 Calle Berlin 16, Bloque 4, 2º Puerta A
 28922 Alcorcón
 Madrid
