@@ -16,7 +16,7 @@ While it may seem straightforward, the initial step involves obtaining a functio
 
 ## Step 1. Acquire a SidecarT board
 
-To get your hands on a SidecarT, you can either [purchase it from our store](https://gooddatalabs.myshopify.com/) or [build one yourself](https://docs.sidecartridge.com/architecture_and_design/).
+To get your hands on a SidecarT, you can either [purchase it from our store](https://store.sidecartridge.com/) or [build one yourself](https://docs.sidecartridge.com/architecture_and_design/).
 
 {:refdef: style="text-align: center;"}
 [![SidecarT without Raspberry Pi Pico](/assets/images/quickstart/board-single.png)](/assets/images/quickstart/board-single.png){:.glightbox}
