@@ -20,7 +20,7 @@ avatar: /assets/images/avatar.png
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://sidecart.xyz
+url: https://sidecartridge.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -37,7 +37,7 @@ navigation_links:
     url: /blog
 
   - title: Docs
-    url: https://docs.sidecart.xyz
+    url: https://docs.sidecartridge.com
 
   - title: Buy
     url: https://gooddatalabs.myshopify.com
@@ -55,7 +55,7 @@ footer_navigation_links:
     url: /licenses
 
   - title: Docs
-    url: https://docs.sidecart.xyz/
+    url: https://docs.sidecartridge.com/
 
   - title: Downloads
     url: /downloads

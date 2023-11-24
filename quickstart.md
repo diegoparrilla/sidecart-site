@@ -16,7 +16,7 @@ While it may seem straightforward, the initial step involves obtaining a functio
 
 ## Step 1. Acquire a SidecarT board
 
-To get your hands on a SidecarT, you can either [purchase it from our store](https://gooddatalabs.myshopify.com/) or [build one yourself](https://docs.sidecart.xyz/architecture_and_design/).
+To get your hands on a SidecarT, you can either [purchase it from our store](https://gooddatalabs.myshopify.com/) or [build one yourself](https://docs.sidecartridge.com/architecture_and_design/).
 
 {:refdef: style="text-align: center;"}
 [![SidecarT without Raspberry Pi Pico](/assets/images/quickstart/board-single.png)](/assets/images/quickstart/board-single.png){:.glightbox}
@@ -189,13 +189,13 @@ To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button
 
 You can now explore the different features available in the SidecarT.
 
-1. [Download floppy images from the Atari ST database](https://docs.sidecart.xyz/userguide/#atari-st-database-of-floppy-images)
-2. [Emulate a Floppy Drive](https://docs.sidecart.xyz/userguide/#floppies-emulation-configuration-preview)
-3. [Real Time Clock](https://docs.sidecart.xyz/userguide/#real-time-clock-rtc)
-4. [SidecarT in Ripper mode](https://docs.sidecart.xyz/userguide/#enable-rom-delay--ripper-mode)
-5. [Setup your own ROMs hosting web server](https://docs.sidecart.xyz/how_to/#set-up-your-own-http-server-for-your-romsw)
+1. [Download floppy images from the Atari ST database](https://docs.sidecartridge.com/userguide/#atari-st-database-of-floppy-images)
+2. [Emulate a Floppy Drive](https://docs.sidecartridge.com/userguide/#floppies-emulation-configuration-preview)
+3. [Real Time Clock](https://docs.sidecartridge.com/userguide/#real-time-clock-rtc)
+4. [SidecarT in Ripper mode](https://docs.sidecartridge.com/userguide/#enable-rom-delay--ripper-mode)
+5. [Setup your own ROMs hosting web server](https://docs.sidecartridge.com/how_to/#set-up-your-own-http-server-for-your-romsw)
 
-You can find more information in the [Documentation](https://docs.sidecart.xyz) site.
+You can find more information in the [Documentation](https://docs.sidecartridge.com) site.
 
 ## Need help?
 

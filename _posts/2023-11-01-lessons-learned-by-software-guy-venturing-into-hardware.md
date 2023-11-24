@@ -9,11 +9,11 @@ image: /assets/images/board-batches.png
 I've been in the software game for almost 30 years professionally, with another 10 dabbling in programming. I'm one of those who think anyone can code, but creating a software product is a feat few can achieve. It might sound a bit arrogant, but I know how to make and sell software products. However, hardware was an entirely new world for me. I found it to be an unforgiving, harsh, complex terrain... yet incredibly rewarding. Join me in this post as I share my journey in developing the SidecarT. Fair warning: some of my views might stir up controversy, but you'll surely walk away with valuable (or debatable, depending on how you look at it) lessons.
 
 ## What is SidecarT?
-[SidecarT](https://sidecart.xyz) is a ROM cartridge emulator for the Atari ST, STE, and Mega series, powered by the Raspberry Pi Pico's RP2040 microcontroller. It supports the emulation of 64Kbyte and 128Kbyte ROMs, facilitates real-time interaction with the cartridge bus, and can emulate various devices, including hard and floppy disks. The open-source, customizable architecture of SidecarT encourages technological experimentation.
+[SidecarT](https://sidecartridge.com) is a ROM cartridge emulator for the Atari ST, STE, and Mega series, powered by the Raspberry Pi Pico's RP2040 microcontroller. It supports the emulation of 64Kbyte and 128Kbyte ROMs, facilitates real-time interaction with the cartridge bus, and can emulate various devices, including hard and floppy disks. The open-source, customizable architecture of SidecarT encourages technological experimentation.
 
 [![SidecarT](/assets/images/board-hand.png)](/assets/images/board-hand.png){:.glightbox}
 
-Essentially, SidecarT integrates hardware to enable seamless communication between the RP2040 microcontroller and an Atari ST. All this magic (or, rather, engineering) is driven by sophisticated coding. To get a fuller understanding of the design, I recommend reading the [previous articles on our blog](https://sidecart.xyz/blog/).
+Essentially, SidecarT integrates hardware to enable seamless communication between the RP2040 microcontroller and an Atari ST. All this magic (or, rather, engineering) is driven by sophisticated coding. To get a fuller understanding of the design, I recommend reading the [previous articles on our blog](https://sidecartridge.com/blog/).
 
 ## First and Most Important Lesson: If You're Here for the Money, You're in the Wrong Place
 

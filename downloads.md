@@ -8,7 +8,7 @@ Welcome to the official download center for SidecarT firmware and software. Find
 
 ## SidecarT Firmware
 
-The SidecarT firmware runs on the Raspberry Pi Pico W, facilitating communication with the Atari ST. Updating the software is as simple as copying the firmware file to the Pico's USB drive. You can follow the [Update the firmware](https://docs.sidecart.xyz/how_to#update-the-firmware) guide or revisit the [Quickstart](/quickstart) section.
+The SidecarT firmware runs on the Raspberry Pi Pico W, facilitating communication with the Atari ST. Updating the software is as simple as copying the firmware file to the Pico's USB drive. You can follow the [Update the firmware](https://docs.sidecartridge.com/how_to#update-the-firmware) guide or revisit the [Quickstart](/quickstart) section.
 
 
 ### Latest STABLE release
