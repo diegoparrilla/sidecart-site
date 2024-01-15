@@ -16,7 +16,7 @@ But a year ago, a member of the old Spanish "crews" managed to recover some of t
 
 <div class="plyr__video-embed" id="player">
   <iframe
-    src="https://www.youtube.com/embed/A5K8tscK6Dw?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    src="https://www.youtube-nocookie.com/embed/A5K8tscK6Dw?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
     allowfullscreen
     allowtransparency
   ></iframe>
@@ -28,7 +28,7 @@ My first "hardcore retrocomputing" project was a new cracktro where I aimed to f
 
 <div class="plyr__video-embed" id="player">
   <iframe
-    src="https://www.youtube.com/embed/a-5O7mlukhQ?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    src="https://www.youtube-nocookie.com/embed/a-5O7mlukhQ?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
     allowfullscreen
     allowtransparency
   ></iframe>
@@ -94,7 +94,7 @@ As one might guess, this entire setup was a real jumble of wires. Once I ensured
 
 <div class="plyr__video-embed" id="player">
   <iframe
-    src="https://www.youtube.com/embed/SC36MAYPz-A?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
+    src="https://www.youtube-nocookie.com/embed/SC36MAYPz-A?iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1;loading=lazy"
     allowfullscreen
     allowtransparency
   ></iframe>
