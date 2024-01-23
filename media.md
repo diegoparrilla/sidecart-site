@@ -12,5 +12,6 @@ You can find SidecarT in the media and news. Here are some examples:
 
 | Date        | Description                                                   | Video Link                                                     |
 |-------------|---------------------------------------------------------------|----------------------------------------------------------------|
-| October 2023| Our friends at AmigaWave interviewed me about SidecarT. The interview is in Spanish. | [Watch Video](https://www.youtube.com/watch?v=B4Zxc2rqd50)     |
-| January 2024| Commodore is not the only fruit runs a very detailed article about SidecarT. | [Watch Video](https://www.youtube.com/watch?v=c1xYBofchm8)     |
+| January 2024| Commodore is not the only fruit runs a very detailed article about SidecarT. | [Watch](https://www.youtube.com/watch?v=c1xYBofchm8)     |
+| December 2023| Amigos Stream Team review the SidecarT | [Watch](https://www.youtube.com/watch?v=SP2JAeX02oI)     |
+| October 2023| Our friends at AmigaWave interviewed me about SidecarT. The interview is in Spanish. | [Watch](https://www.youtube.com/watch?v=B4Zxc2rqd50)     |
