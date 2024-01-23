@@ -23,7 +23,7 @@ To get your hands on a SidecarT, you can either [purchase it from our store](htt
 {: refdef}
 
 
-The SidecarT operates using a Raspberry Pi Pico W (Raspberry Pi Pico soon). You have the option to purchase the SidecarT with an included and pre-configured Raspberry Pi Pico W, or you can buy one separately. If you choose to purchase one on your own, you should look for a [Raspberry Pi Pico WH (Reference SC0919)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh), which already comes with the necessary 40-pin connectors to attach to the SidecarT's motherboard. Alternatively, you can buy a [Raspberry Pi Pico W (Reference SC0918)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh) and procure two 20-pin connectors, then solder them to the board yourself. Here's a [link to a manufacturer](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C50981_C50981.html) for reference.
+The SidecarT operates using a Raspberry Pi Pico W. You have the option to purchase the SidecarT with an included and pre-configured Raspberry Pi Pico W, or you can buy one separately. If you choose to purchase one on your own, you should look for a [Raspberry Pi Pico WH (Reference SC0919)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh), which already comes with the necessary 40-pin connectors to attach to the SidecarT's motherboard. Alternatively, you can buy a [Raspberry Pi Pico W (Reference SC0918)](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w-and-pico-wh) and procure two 20-pin connectors, then solder them to the board yourself. Here's a [link to a manufacturer](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C50981_C50981.html) for reference.
 
 {:refdef: style="text-align: center;"}
 [![Raspberry Pi Pico WH](/assets/images/quickstart/raspberry-pi-pico-rp2040-wh.png)](/assets/images/quickstart/raspberry-pi-pico-rp2040-wh.png){:.glightbox}
@@ -113,6 +113,8 @@ As a side not, SidecarT support STEEM ROM images format out of the box.
 
 
 ## Step 5. Connect the SidecarT with the Raspberry Pi Pico W and the microSD to the computer
+
+> :warning: **Important Cleaning Notice for SidecarT Users:** Ensuring the cleanliness of your Atari ST/STE/Mega's cartridge interface and the SidecarT's cartridge connector is crucial for optimal functionality. An unclean connection can lead to issues with device performance. We highly recommend using a soft brush and isopropyl alcohol for thorough cleaning. The headers of the SidecarT are soldered by hand, and while we strive to clean all the flux, we cannot guarantee that they are completely free of residues. Regular cleaning on your part is essential for maintaining the best connection and device performance.
 
 Before turning on your computer, plug the SidecarT into the cartridge interface on the side of the computer. **It's crucial to ensure that the Raspberry Pi Pico faces upwards**.
 
