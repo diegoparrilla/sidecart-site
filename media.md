@@ -10,7 +10,7 @@ image: /assets/images/board-hand.png
 
 You can find SidecarT in the media and news. Here are some examples:
 
-| Date        | Description                                                   | Video Link                                                     |
+| Date        | Description                                                   | Link                                                     |
 |-------------|---------------------------------------------------------------|----------------------------------------------------------------|
 | January 2024| Commodore is not the only fruit runs a very detailed article about SidecarT. | [Watch](https://www.youtube.com/watch?v=c1xYBofchm8)     |
 | December 2023| Amigos Stream Team review the SidecarT | [Watch](https://www.youtube.com/watch?v=SP2JAeX02oI)     |
