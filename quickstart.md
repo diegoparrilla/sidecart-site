@@ -126,7 +126,7 @@ Make sure to handle the SidecarT carefully to avoid any damage. Once connected, 
 
 ## Step 6. Switch on the computer
 
-When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, it only acts as a ROM emulator. 
+When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, you can configure the SidecarT as a [ROM emulator](https://docs.sidecartridge.com/userguide/#rom-emulation), a [floppy emulator](https://docs.sidecartridge.com/userguide/#floppies-emulation), or a [real-time clock](https://docs.sidecartridge.com/userguide/#real-time-clock-rtc).
 
 > Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'C' in Morse code. 
 
@@ -181,8 +181,15 @@ Now you can reset or power cycle your computer. Every time you reset or power cy
 
 If you want to reconfigure the SidecarT for a different feature or simply load a different ROM, there is a special button in the SidecarT board for it: the SELECT button.
 
+The SELECT button in the revision 0.0.1:
 {:refdef: style="text-align: center;"}
-[![Boot in SELECT mode in SidecarT](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button.gif){:.glightbox}
+[![Boot in SELECT mode in SidecarT rev 0.0.1](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button.gif){:.glightbox}
+{: refdef}
+
+
+The SELECT button in the revision 1.0.0 and onwards:
+{:refdef: style="text-align: center;"}
+[![Boot in SELECT mode in SidecarT rev 2.0.0](/assets/images/quickstart/select-button.gif)](/assets/images/quickstart/select-button-rev-2.0.0.gif){:.glightbox}
 {: refdef}
 
 To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for **more than a second** and power cycle your computer. The Raspberry Pi Pico W will blink the 'C' in morse code. It will boot again in CONFIGURATOR mode like in step 6.
@@ -201,4 +208,4 @@ You can find more information in the [Documentation](https://docs.sidecartridge.
 
 ## Need help?
 
-Check out our [contact us](/contact) paeg if you have any questions or issues. We're happy to help!
+Check out the [throubleshoot pages](https://docs.sidecartridge.com/troubleshooting/), or our [contact us](/contact) page if you have any questions or issues. We're happy to help!
