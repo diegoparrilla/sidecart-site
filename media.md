@@ -6,7 +6,7 @@ excerpt: "What the people say about SidecarT"
 image: /assets/images/board-hand.png
 ---
 
-## Media and news
+## What the people say about SidecarT
 
 You can find SidecarT in the media and news. Here are some examples:
 
