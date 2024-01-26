@@ -2,7 +2,7 @@
 layout: post
 title: "SidecarT boards evolution: six months later"
 excerpt: "This week marks a significant milestone for the SidecarT community as I've rolled out the latest revision of the SidecarT board to the first customers..."
-categories: [design]
+categories: [design, sidecart, revision]
 image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
 ---
 
@@ -100,4 +100,4 @@ Thanks to the vibrant discussions and feedback from the community, several excit
 
 6. **SELECT Button with Springs:** Inspired by the tactile feel of the RESET button on the Atari ST, adding a similar quality SELECT button would be ideal. Though more expensive and requiring manual soldering, we might include a placeholder for enthusiasts who wish to add this feature themselves.
 
-These ideas represent just a glimpse of the potential directions for SidecarT. Your input is invaluable in shaping its future. If you have suggestions or ideas, please join the Discord server and share your thoughts. Together, we can continue to evolve SidecarT while staying true to the principles of simplicity, affordability, solderless design, and backward compatibility.
+These ideas represent just a glimpse of the potential directions for SidecarT. Your input is invaluable in shaping its future. If you have suggestions or ideas, please join the [Discord server](https://discord.gg/u73QP9MEYC) and share your thoughts. Together, we can continue to evolve SidecarT while staying true to the principles of simplicity, affordability, solderless design, and backward compatibility.
