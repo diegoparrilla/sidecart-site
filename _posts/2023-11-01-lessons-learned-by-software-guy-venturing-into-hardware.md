@@ -2,7 +2,7 @@
 layout: post
 title: "Lessons Learned by a Software Guy Venturing into Hardware"
 excerpt: "I've been in the software game for almost 30 years professionally, with another 10 dabbling in programming. I'm one of those who think anyone can code, but creating a software product..."
-categories: [design]
+categories: [design, sidecart, revision]
 image: /assets/images/board-batches.png
 ---
 
