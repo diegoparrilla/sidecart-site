@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SidecarT boards evolution: six months later"
+title: "The Evolution of the SidecarT Boards: Six Months Later"
 excerpt: "This week marks a significant milestone for the SidecarT community as I've rolled out the latest revision of the SidecarT board to the first customers..."
 categories: [design, sidecart, revision]
 image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
