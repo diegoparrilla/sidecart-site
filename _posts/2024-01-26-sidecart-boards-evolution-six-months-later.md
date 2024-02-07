@@ -8,8 +8,8 @@ image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
 
 <div id="latest-release-callout"
     style="border: 2px solid #FFA500; padding: 15px; background-color: #FFF3E0; text-align: left; font-weight: bold;">
-        <h3>New board revision 2 available!(<a
-                href="https://store.sidecartridge.com">in our online store</a>)
+        <h3>New board revision 2 available <a
+                href="https://store.sidecartridge.com">in the online store!</a>
         </h3>
 </div>
 
