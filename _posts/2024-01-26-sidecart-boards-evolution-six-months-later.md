@@ -6,6 +6,15 @@ categories: [design, sidecart, revision]
 image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
 ---
 
+<div id="latest-release-callout"
+    style="border: 2px solid #FFA500; padding: 15px; background-color: #FFF3E0; text-align: left; font-weight: bold;">
+    <nbsp;>
+        </nbsp>
+        <h3>New board revision 2 available!(<a
+                href="https://store.sidecartridge.com">in our online store</a>)
+        </h3>
+</div>
+
 ## Tracing the Path of SidecarT's Revisions
 
 This week marks a significant milestone for the SidecarT community as I've rolled out the latest revision of the SidecarT board to the first customers. It's been an incredible journey since I introduced the initial version in the summer of 2023. In just six months, I've seen over 400 boards make their way into the hands of enthusiastic users around the world. Their invaluable feedback has been the driving force behind the design of this new revision, which incorporates several enhancements aimed at addressing the challenges and requests of the users.
