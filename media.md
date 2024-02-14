@@ -3,7 +3,6 @@ layout: page
 title: Media
 permalink: /media
 excerpt: "What the people say about SidecarT"
-image: /assets/images/board-hand.png
 ---
 
 ## What the people say about SidecarT
