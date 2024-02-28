@@ -176,8 +176,6 @@ Now you can reset or power cycle your computer. Every time you reset or power cy
 
 ## Step 8. Find an application in the Atari ST Floppy Database
 
-## Quickstart Guide: Downloading Applications from the Atari ST Floppy Database
-
 The SidecarT board allows easy access to a database of floppy images without needing additional setup beyond the initial Floppies Emulation configuration.
 
 - **Accessing the Database**: From the main menu, select *5. Download from the Floppy Images database*. Use the alphabetical and numerical bar to navigate and select an application by its starting letter.
