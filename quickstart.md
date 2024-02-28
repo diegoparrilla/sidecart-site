@@ -131,7 +131,7 @@ When powering on the computer for the first time with SidecarT connected, it wil
 > Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'C' in Morse code. 
 
 {:refdef: style="text-align: center;"}
-[![First boot with SidecarT in condfigurator mode](/assets/images/quickstart/firstboot-menu.gif)](/assets/images/quickstart/firstboot-menu.gif){:.glightbox}
+[![First boot with SidecarT in condigurator mode](/assets/images/quickstart/step-6-configurator.gif)](/assets/images/quickstart/step-6-configurator.gif){: style="max-width:640px; width: 100%;" .glightbox}
 {: refdef}
 
 Upon booting, the classic Atari GEM desktop should appear with an additional icon labeled "Cartridge". Open it, and inside you'll find a file named `SIDECART.TOS`. Run it.
@@ -146,6 +146,10 @@ Enter the number corresponding to the ROM image you wish to emulate and press En
 
 > Note: You know you're in ROM EMULATION mode when booting because the Raspberry Pi Pico W's LED will show a short blink; a 'E' in Morse code.
 
+{:refdef: style="text-align: center;"}
+[![Load ROM from micrcoSD card of the SidecarT](/assets/images/quickstart/step-7a-load-rom.gif)](/assets/images/quickstart/step-7a-load-rom.gif){: style="max-width:640px; width: 100%;" .glightbox}
+{: refdef}
+
 ## Step 7b: Wi-Fi Configuration & ROM Emulation via HTTP Server
 
 For those utilizing a SidecarT with a Raspberry Pi Pico W, you have the capability to connect to a Wi-Fi network and fetch the ROM image directly from an HTTP server. 
@@ -153,28 +157,37 @@ For those utilizing a SidecarT with a Raspberry Pi Pico W, you have the capabili
 Initiate this by pressing 'W' to access the *Wi-Fi configuration* menu.
 
 {:refdef: style="text-align: center;"}
-[![Wifi configuraton of SidecarT](/assets/images/quickstart/wifi-config.gif)](/assets/images/quickstart/wifi-config.gif){:.glightbox}
+[![Wifi configuraton of SidecarT](/assets/images/quickstart/step-7b-1-configure-wifi.gif)](/assets/images/quickstart/step-7b-1-configure-wifi.gif){: style="max-width:640px; width: 100%;" .glightbox}
 {: refdef}
 
 Once inside, scroll through the list of available networks. Confirm your desired network by pressing 'Enter'. If your chosen network is secure, you'll be prompted to input the password. After a successful connection, you'll be redirected to the main menu.
 
 The connection status will then be displayed at the screen's base. Upon acquiring an IP address from the DHCP server, the SidecarT's IP address will be showcased. With this, a new menu option emerges: *Emulate ROM image from Wi-Fi*.
 
-Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. These ROM lists are stored within a `roms.json` file on the HTTP server. Should you wish to alter the server URL, navigate to option 'C' for *SidecarT configuration*.
+Activate this option by pressing '2'. The system will then present a list of ROM images available on the HTTP server. 
 
 {:refdef: style="text-align: center;"}
-[![Show the ROMS available in the HTTP server](/assets/images/quickstart/boot-from-wifi.gif)](/assets/images/quickstart/boot-from-wifi.gif){:.glightbox}
+[![Show the ROMS available in the HTTP server](/assets/images/quickstart/step-7b-2-download-rom.gif)](/assets/images/quickstart/step-7b-2-download-rom.gif){: style="max-width:640px; width: 100%;" .glightbox}
 {: refdef}
 
 Scroll to your desired ROM image and confirm with 'Enter'. The system will handle the download and ready the ROM for execution on your next system startup or reset.
 
-
-## Step 8. Boot the ROM
-
 Now you can reset or power cycle your computer. Every time you reset or power cycle your computer, it will load the image as a genuine cartridge ROM.
 
+## Step 8. Find an application in the Atari ST Floppy Database
+
+## Quickstart Guide: Downloading Applications from the Atari ST Floppy Database
+
+The SidecarT board allows easy access to a database of floppy images without needing additional setup beyond the initial Floppies Emulation configuration.
+
+- **Accessing the Database**: From the main menu, select *5. Download from the Floppy Images database*. Use the alphabetical and numerical bar to navigate and select an application by its starting letter.
+
+- **Downloading an Application**: Press RETURN or ENTER to initiate the download of the chosen application's floppy image to the storage folder.
+
+- **Finalizing the Setup**: Once downloaded, the SidecarT board's green LED will signal readiness by blinking an 'F' in Morse code. Reset or power cycle the Atari ST to start using the downloaded floppy image as a regular floppy disk.
+
 {:refdef: style="text-align: center;"}
-[![Boot ROM from Wi-Fi in SidecarT](/assets/images/quickstart/boot-rom.gif)](/assets/images/quickstart/boot-rom.gif){:.glightbox}
+[![Download Floppy Image from Wi-Fi in SidecarT](/assets/images/quickstart/step-8-download-floppy-image.gif)](/assets/images/quickstart/step-8-download-floppy-image.gif){: style="max-width:640px; width: 100%;" .glightbox}
 {: refdef}
 
 ## Extra bonus. Load a different ROM / Enter CONFIGURATOR mode again
