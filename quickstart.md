@@ -188,9 +188,9 @@ The SidecarT board allows easy access to a database of floppy images without nee
 [![Download Floppy Image from Wi-Fi in SidecarT](/assets/images/quickstart/step-8-download-floppy-image.gif)](/assets/images/quickstart/step-8-download-floppy-image.gif){: style="max-width:640px; width: 100%;" .glightbox}
 {: refdef}
 
-## Extra bonus. Load a different ROM / Enter CONFIGURATOR mode again
+## Extra bonus. Enter in the CONFIGURATOR mode again
 
-If you want to reconfigure the SidecarT for a different feature or simply load a different ROM, there is a special button in the SidecarT board for it: the SELECT button.
+If you want to reconfigure the SidecarT for a different feature, there is a special button in the SidecarT board for it: the SELECT button.
 
 The SELECT button in the revision 0.0.1:
 {:refdef: style="text-align: center;"}
