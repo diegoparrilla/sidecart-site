@@ -200,7 +200,7 @@ The SELECT button in the revision 0.0.1:
 
 The SELECT button in the revision 1.0.0 and onwards:
 {:refdef: style="text-align: center;"}
-[![Boot in SELECT mode in SidecarT rev 2.0.0](/assets/images/quickstart/select-button-v2.gif)](/assets/images/quickstart/select-button-rev-2.0.0-v2.gif){:.glightbox}
+[![Boot in SELECT mode in SidecarT rev 2.0.0](/assets/images/quickstart/select-button-v2.gif)](/assets/images/quickstart/select-button-v2.gif){:.glightbox}
 {: refdef}
 
 To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button for **more than a second** and power cycle your computer. The Raspberry Pi Pico W will blink the 'C' in morse code. It will boot again in CONFIGURATOR mode like in step 6.
