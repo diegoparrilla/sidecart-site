@@ -50,8 +50,6 @@ To install the latest SidecarT firmware on the Raspberry Pi Pico W, connect your
 
 In this directory, you will need to copy the latest available Firmware version, which you can directly download from the links below:
 
-- **Latest STABLE Firmware ({{ site.FIRMWARE_VERSION }}):** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
-
 - **Latest BETA Firmware ({{ site.FIRMWARE_BETA_VERSION }}):** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-BETA.uf2)
 
 Once you've copied the file corresponding to your Raspberry Pico version, disconnect the power cable. The new firmware has now been flashed.
