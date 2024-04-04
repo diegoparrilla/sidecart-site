@@ -61,7 +61,7 @@ footer_navigation_links:
     url: /roms
 
   - title: Changelog
-    url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/blob/v0.0.10/CHANGELOG.md
+    url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/blob/v0.0.16/CHANGELOG.md
 
   - title: Contact
     url: /contact
@@ -149,7 +149,7 @@ google_analytics: G-6VT9RXTJ2N
 
 # Versions of SidecarT
 FIRMWARE_VERSION: v0.0.11
-FIRMWARE_BETA_VERSION: beta-v0.0.15
+FIRMWARE_BETA_VERSION: beta-v0.0.16
 TEST_FIRMWARE_VERSION: v0.0.3
 
 # Discord invitation
