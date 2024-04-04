@@ -6,7 +6,7 @@ categories: [design, sidecart, software, firmware]
 image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
 ---
 
-## Hard Disk Emulation with SidecarT
+## A new feature for SidecarT: GEMDRIVE Hard Disk Emulator
 
 This week, I'm rolling out something that's going to make the SidecarT really cool: a new firmware update that slaps hard disk emulation right onto your beloved Atari ST. That's right, we're going to turn that humble microSD card into a digital vault for all the bits and bytes you'd normally entrust to a clunky old hard disk. Sure, the Atari ST world isn't exactly short on hard disk solutions, but I wasn't content with just throwing another option into the mix. No, I aimed to deliver a feature that not only ticks all the boxes but also throws in a few extra goodies to keep things spicy for the SidecarT saga.
 
@@ -81,7 +81,7 @@ Navigating the waters of classic Atari ST computing means dealing with hard disk
 
 ### Game On with PPera Hard Disk Games
 
-Diving into the world of PPera hard disk games supporting HAGA and HAGE drivers with the GEMDRIVE has been a blast. These games, which you can snag from the [Atari ST Adapted Games](https://atari.8bitchip.info/fromhd3.php) site, are a perfect match for the GEMDRIVE, playing nice across a spectrum of TOS versions from the vintage 1.00 to the more sprightly 2.06, as long as you've got at least 1MB RAM to play with. Most of these games run without for HAGA and HAGE, though there are a couple that seem to be playing hard to get, hinting at some deeper mysteries of compatibility yet to be unraveled.
+Diving into the world of PPera hard disk games supporting HAGA and HAGE drivers with the GEMDRIVE has been a blast. These games, which you can snag from the [Atari ST Adapted Games](https://atari.8bitchip.info/fromhd3.php) site, are a perfect match for the GEMDRIVE, playing nice across a spectrum of TOS versions from the vintage 1.00 to the more sprightly 2.06, as long as you've got at least 1MB RAM to play with. Most of these games run without issues for HAGA and HAGE, though there are a couple that seem to be playing hard to get, hinting at some deeper mysteries of compatibility yet to be unraveled.
 
 ### A Friendly Nod to Older TOS Versions
 
