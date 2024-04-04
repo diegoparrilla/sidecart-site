@@ -1,21 +1,14 @@
 ---
 layout: post
 title: "Hard disk emulation with SidecarT"
-excerpt: "..."
+excerpt: "This week, I'm rolling out something that's going to make the SidecarT really cool: a new firmware update that slaps hard disk emulation right onto your beloved Atari ST..."
 categories: [design, sidecart, software, firmware]
 image: /assets/blog/images/sidecart-rev0-rev1-rev2.png
 ---
 
-<div id="latest-release-callout"
-    style="border: 2px solid #FFA500; padding: 15px; background-color: #FFF3E0; text-align: left; font-weight: bold;">
-        <h3>New board revision 2 available <a
-                href="https://store.sidecartridge.com">in the online store!</a>
-        </h3>
-</div>
-
 ## Hard Disk Emulation with SidecarT
 
-This week, I'm rolling out something that's going to make the SidecarT cooler: a new firmware update that slaps hard disk emulation right onto your beloved Atari ST. That's right, we're going to turn that humble microSD card into a digital vault for all the bits and bytes you'd normally entrust to a clunky old hard disk. Sure, the Atari ST world isn't exactly short on hard disk solutions, but I wasn't content with just throwing another option into the mix. No, I aimed to deliver a feature that not only ticks all the boxes but also throws in a few extra goodies to keep things spicy for the SidecarT saga.
+This week, I'm rolling out something that's going to make the SidecarT really cool: a new firmware update that slaps hard disk emulation right onto your beloved Atari ST. That's right, we're going to turn that humble microSD card into a digital vault for all the bits and bytes you'd normally entrust to a clunky old hard disk. Sure, the Atari ST world isn't exactly short on hard disk solutions, but I wasn't content with just throwing another option into the mix. No, I aimed to deliver a feature that not only ticks all the boxes but also throws in a few extra goodies to keep things spicy for the SidecarT saga.
 
 So, buckle up and let's dive into this digital delicacy, shall we?
 
