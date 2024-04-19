@@ -9,7 +9,7 @@ lang: "en"
 title: SidecarT
 
 # Short bio or description (displayed in the header)
-description: Atari ST/STE/Mega cartridge emulator on Raspberry Pi Pico steroids
+description: Atari ST/STE/Mega multi-device emulator on Raspberry Pi Pico steroids
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/images/avatar.png
