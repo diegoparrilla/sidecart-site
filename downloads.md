@@ -12,15 +12,15 @@ The SidecarT firmware runs on the Raspberry Pi Pico W, facilitating communicatio
 
 
 ### Latest STABLE release
-- **Latest STABLE Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
-- **Latest STABLE DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
+- **Latest STABLE Firmware Version:** [sidecart-pico_w.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w.uf2)
+- **Latest STABLE DEBUG Firmware Version:** [sidecart-pico_w-debug.uf2 ({{ site.FIRMWARE_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_VERSION }}/sidecart-pico_w-debug.uf2)
 
 ### Latest BETA release
-- **Latest BETA Firmware Version:** [sidecart-pico_w-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-BETA.uf2)
-- **Latest BETA DEBUG Firmware Version:** [sidecart-pico_w-debug-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-debug-BETA.uf2)
+- **Latest BETA Firmware Version:** [sidecart-pico_w-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-BETA.uf2)
+- **Latest BETA DEBUG Firmware Version:** [sidecart-pico_w-debug-BETA.uf2 ({{ site.FIRMWARE_BETA_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/releases/download/{{ site.FIRMWARE_BETA_VERSION }}/sidecart-pico_w-debug-BETA.uf2)
 
 
-[🔗 View All Firmware Versions on GitHub](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/releases)
+[🔗 View All Firmware Versions on GitHub](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/releases)
 
 ## SidecarT Test Software
 
@@ -33,7 +33,7 @@ The test software runs on the Atari ST, checking the SidecarT's communication ca
 4. Now start the Atari ST and the SidecarT in normal mode and launch the `TESTSCRT.TOS` program.
 
 ### Latest Versions
-- **Test Software:** [TESTSCRT.TOS ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTSCRT.TOS)
-- **Test ROM:** [TESTROM.BIN ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTROM.BIN)
+- **Test Software:** [TESTSCRT.TOS ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTSCRT.TOS)
+- **Test ROM:** [TESTROM.BIN ({{ site.TEST_FIRMWARE_VERSION }})](https://github.com/sidecartridge/atarist-sidecart-test-rom/releases/download/v0.0.3/TESTROM.BIN)
 
-[🔗 View All Test Software Versions on GitHub](https://github.com/diegoparrilla/atarist-sidecart-test-rom/releases)
+[🔗 View All Test Software Versions on GitHub](https://github.com/sidecartridge/atarist-sidecart-test-rom/releases)

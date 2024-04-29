@@ -6,7 +6,7 @@ permalink: /licenses
 
 ## Software licenses
 
-All software artifacts in this project are licensed under the [GNU General Public License v3.0](https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/blob/main/LICENSE) license. Please consult all the licenses in the `LICENSE` file in the root of the repositories.
+All software artifacts in this project are licensed under the [GNU General Public License v3.0](https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/blob/main/LICENSE) license. Please consult all the licenses in the `LICENSE` file in the root of the repositories.
 
 ## Hardware license
 

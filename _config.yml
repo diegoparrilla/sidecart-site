@@ -61,7 +61,7 @@ footer_navigation_links:
     url: /roms
 
   - title: Changelog
-    url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico/blob/v0.0.16/CHANGELOG.md
+    url: https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/blob/v0.0.16/CHANGELOG.md
 
   - title: Contact
     url: /contact
@@ -76,7 +76,7 @@ footer_links:
     icon: fa fa-twitter-square
 
   - title: GitHub
-    url: https://github.com/diegoparrilla/atarist-sidecart-raspberry-pico
+    url: https://github.com/sidecartridge/atarist-sidecart-raspberry-pico
     icon: fa fa-github-square
 
   - title: YouTube
