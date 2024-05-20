@@ -18,7 +18,7 @@ For general inquiries, feel free to reach out to us via email:
 
 ### 🐦 Twitter
 Stay connected and follow us on Twitter: 
-[@sidecartridge](https://twitter.com/sidecartridge)
+[@sidecartridge](https://x.com/sidecartridge)
 
 ### 🕹️ Atari Forum
 Send me a message on my [Atari Forum account](https://www.atari-forum.com/memberlist.php?mode=viewprofile&u=36585).

@@ -99,4 +99,4 @@ The SidecarT's knack for bypassing the notorious Bad-DMA issue, coupled with its
 
 But this is merely the beginning. With the groundwork for network connectivity laid and our commitment to refining emulation techniques, the horizon for the SidecarT project looks dazzlingly bright. The journey ahead promises to be filled with challenges and triumphs, as we continue to push the boundaries of Atari ST innovation.
 
-Got a spark of an idea or a suggestion? Hop into our [Discord server](https://discord.gg/u73QP9MEYC) and let's chat. It's in these collaborations that SidecarT will continue to evolve, adhering to our core values of simplicity, affordability, and a solderless, backward-compatible design. Let's keep the spirit of Atari ST innovation alive, together.
+Got a spark of an idea or a suggestion? Hop into our [Discord server](https://discord.com/invite/u73QP9MEYC) and let's chat. It's in these collaborations that SidecarT will continue to evolve, adhering to our core values of simplicity, affordability, and a solderless, backward-compatible design. Let's keep the spirit of Atari ST innovation alive, together.

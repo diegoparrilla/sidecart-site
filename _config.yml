@@ -72,7 +72,7 @@ footer_navigation_links:
 # Footer icons
 footer_links:
   - title: Twitter
-    url: https://twitter.com/sidecartridge
+    url: https://x.com/sidecartridge
     icon: fa fa-twitter-square
 
   - title: GitHub
@@ -84,7 +84,7 @@ footer_links:
     icon: fa fa-youtube-square
   
   - title: Discord
-    url: https://discord.gg/u73QP9MEYC
+    url: https://discord.com/invite/u73QP9MEYC
     icon: fa fa-discord
 
   - title: Newsletter
@@ -153,4 +153,4 @@ FIRMWARE_BETA_VERSION: beta-v0.0.16
 TEST_FIRMWARE_VERSION: v0.0.3
 
 # Discord invitation
-DISCORD_INVITATION: https://discord.gg/u73QP9MEYC
+DISCORD_INVITATION: https://discord.com/invite/u73QP9MEYC
