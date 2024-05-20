@@ -11,7 +11,7 @@ image: /assets/images/board-hand.png
 While it may seem straightforward, the initial step involves obtaining a functional Atari ST, STE, or Mega computer. It's okay if certain components aren't in perfect shape—for instance, the floppy drive or the hard disk might not be operational—as long as the machine can power on. It's worth noting that the SidecarT board can emulate a physical floppy drive, so an Atari ST without a (or a broken) floppy drive can still be used with the SidecarT board. The SidecarT board is also compatible with TOS versions ranging from 1.00 to 2.06, almost every single ST and STE series compute sold. If you haven't secured one yet, consider checking second-hand sales websites or specialized forums such as [Atari Forum](https://www.atari-forum.com/) and [Atari Age](https://www.atariage.com/).
 
 {:refdef: style="text-align: center;"}
-[![Atari 520ST](/assets/images/quickstart/atari520st.jpeg)](/assets/mage/quickstart/atari520st.jpeg){:.glightbox}
+[![Atari 520ST](/assets/images/quickstart/atari520st.jpeg)](/assets/image/quickstart/atari520st.jpeg){:.glightbox}
 {: refdef}
 
 ## Step 1. Acquire a SidecarT board
@@ -103,9 +103,9 @@ To use the SidecarT effectively, your microSD card needs to be formatted in FAT1
 
 ## Step 4. (Optional) Copy the ROM images onto the microSD card
 
-To get the ROM images for your SidecarT you can use your own images or you can have a look at this [collection](/roms) to download the available ROM images.
+To get the ROM images for your SidecarT you can use your own images or you can have a look at this [collection](/roms/) to download the available ROM images.
 
-The default folder for the ROM images is `/roms` in the root of the microSD card. You can change the folder editing the configuration parameters from the configuration application.
+The default folder for the ROM images is `/roms/` in the root of the microSD card. You can change the folder editing the configuration parameters from the configuration application.
 
 As a side not, SidecarT support STEEM ROM images format out of the box.
 
@@ -222,4 +222,4 @@ You can find more information in the [Documentation](https://docs.sidecartridge.
 
 ## Need help?
 
-Check out the [throubleshoot pages](https://docs.sidecartridge.com/troubleshooting/), or our [contact us](/contact) page if you have any questions or issues. We're happy to help!
+Check out the [throubleshoot pages](https://docs.sidecartridge.com/troubleshooting/), or our [contact us](/contact/) page if you have any questions or issues. We're happy to help!

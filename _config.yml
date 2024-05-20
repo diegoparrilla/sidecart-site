@@ -34,7 +34,7 @@ navigation_links:
     url: /quickstart
 
   - title: Blog
-    url: /blog
+    url: /blog/
 
   - title: Docs
     url: https://docs.sidecartridge.com
@@ -58,13 +58,13 @@ footer_navigation_links:
     url: /downloads
 
   - title: ROMs
-    url: /roms
+    url: /roms/
 
   - title: Changelog
-    url: https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/blob/v0.0.16/CHANGELOG.md
+    url: https://github.com/sidecartridge/atarist-sidecart-raspberry-pico/blob/beta-v0.0.16/CHANGELOG.md
 
   - title: Contact
-    url: /contact
+    url: /contact/
 
   - title: Media 
     url: /media
