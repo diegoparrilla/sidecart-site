@@ -16,7 +16,7 @@ While it may seem straightforward, the initial step involves obtaining a functio
 
 ## Step 1. Acquire a SidecarT board
 
-To get your hands on a SidecarT, you can either [purchase it from our store](https://store.sidecartridge.com/) or [build one yourself](https://docs.sidecartridge.com/architecture_and_design/).
+To get your hands on a SidecarT, you can either [purchase it from our store](https://store.sidecartridge.com/) or [build one yourself](https://docs.sidecartridge.com/sidecartridge-multidevice/architecture_and_design/).
 
 {:refdef: style="text-align: center;"}
 [![SidecarT without Raspberry Pi Pico](/assets/images/quickstart/board-single.png)](/assets/images/quickstart/board-single.png){:.glightbox}
@@ -125,10 +125,10 @@ Make sure to handle the SidecarT carefully to avoid any damage. Once connected, 
 ## Step 6. Switch on the computer
 
 When powering on the computer for the first time with SidecarT connected, it will start in CONFIGURATOR mode. In CONFIGURATOR mode, you can set up the specific function of the SidecarT. Currently, you can configure the SidecarT as a:
-- [ROM emulator](https://docs.sidecartridge.com/userguide/#rom-emulation),
-- a [floppy emulator](https://docs.sidecartridge.com/userguide/#floppies-emulation),
-- a [hard disk emulator](https://docs.sidecartridge.com/userguide/#floppies-emulation)
-- or a [real-time clock](https://docs.sidecartridge.com/userguide/#hard-disk-emulation).
+- [ROM emulator](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#rom-emulation),
+- a [floppy emulator](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#floppies-emulation),
+- a [hard disk emulator](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#floppies-emulation)
+- or a [real-time clock](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#hard-disk-emulation).
 
 > Note: You know you're in CONFIGURATOR mode when booting because the Raspberry Pi Pico W's LED will show two short blinks, one long blink and another short blink; a 'C' in Morse code. 
 
@@ -211,15 +211,15 @@ To launch the SidecarT in CONFIGURATOR mode again, simply push the SELECT button
 
 You can now explore the different features available in the SidecarT.
 
-1. [Download floppy images from the Atari ST database](https://docs.sidecartridge.com/userguide/#atari-st-database-of-floppy-images)
-2. [Emulate a Floppy Drive](https://docs.sidecartridge.com/userguide/#floppies-emulation-configuration-preview)
-3. [Emulate a Hard Disk Drive](https://docs.sidecartridge.com/userguide/#hard-disk-emulation)
-4. [Real Time Clock](https://docs.sidecartridge.com/userguide/#real-time-clock-rtc)
-5. [SidecarT in Ripper mode](https://docs.sidecartridge.com/userguide/#enable-rom-delay--ripper-mode)
-6. [Setup your own ROMs hosting web server](https://docs.sidecartridge.com/how_to/#set-up-your-own-http-server-for-your-romsw)
+1. [Download floppy images from the Atari ST database](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#atari-st-database-of-floppy-images)
+2. [Emulate a Floppy Drive](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#floppies-emulation-configuration-preview)
+3. [Emulate a Hard Disk Drive](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#hard-disk-emulation)
+4. [Real Time Clock](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#real-time-clock-rtc)
+5. [SidecarT in Ripper mode](https://docs.sidecartridge.com/sidecartridge-multidevice/userguide/#enable-rom-delay--ripper-mode)
+6. [Setup your own ROMs hosting web server](https://docs.sidecartridge.com/sidecartridge-multidevice/how_to/#set-up-your-own-http-server-for-your-romsw)
 
 You can find more information in the [Documentation](https://docs.sidecartridge.com) site.
 
 ## Need help?
 
-Check out the [throubleshoot pages](https://docs.sidecartridge.com/troubleshooting/), or our [contact us](/contact/) page if you have any questions or issues. We're happy to help!
+Check out the [throubleshoot pages](https://docs.sidecartridge.com/sidecartridge-multidevice/troubleshooting/), or our [contact us](/contact/) page if you have any questions or issues. We're happy to help!
